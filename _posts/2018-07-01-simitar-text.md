@@ -16,6 +16,6 @@ echo $percentage;
 
 É importante salientar alguns pontos sobre o código acima:
 
-1. A função retorna o número de caracteres iguais entre as strings. Nesse caso, o número retornado vai ser 11, já que é o tamanho da string, ou seja, aqui elas são completamente iguais.
+* A função retorna o número de caracteres iguais entre as strings. Nesse caso, o número retornado vai ser 11, já que é o tamanho da string, ou seja, aqui elas são completamente iguais.
 
-2. Para obter a porcentagem é necessário definir o terceiro parâmetro, pois ele passa o número para uma variável por referência.
+* Para obter a porcentagem é necessário definir o terceiro parâmetro, pois ele passa o número para uma variável por referência.

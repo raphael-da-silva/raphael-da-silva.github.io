@@ -12,8 +12,8 @@ git log --oneline | wc -l
 
 O que o comando acima faz:
 
-1. O git log com o parâmetro --oneline mostra cada mensagem do commit linha por linha.
+* O git log com o parâmetro --oneline mostra cada mensagem do commit linha por linha.
 
-2. O output gerado pelo comando git log é encadeado com pipe para o comando wc.
+* O output gerado pelo comando git log é encadeado com pipe para o comando wc.
 
-3. O parâmetro -l passado para o comando wc específica que é para mostrar a quantidade de linhas. Nesse caso, a quantidade de linhas do comando anterior será o resultado.
+* O parâmetro -l passado para o comando wc específica que é para mostrar a quantidade de linhas. Nesse caso, a quantidade de linhas do comando anterior será o resultado.

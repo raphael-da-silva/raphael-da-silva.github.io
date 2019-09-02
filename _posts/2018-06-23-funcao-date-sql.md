@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL - Comparando de campos de dta descartando a hora
+title: SQL - Comparando de campos de data descartando a hora
 date: 2018-06-23 14:39
 ---
 
