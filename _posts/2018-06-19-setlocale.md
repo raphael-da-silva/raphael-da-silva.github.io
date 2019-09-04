@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Definindo a localização em PHP
+title: PHP - Definindo a localização
 date: 2018-06-19 22:18
 ---
 

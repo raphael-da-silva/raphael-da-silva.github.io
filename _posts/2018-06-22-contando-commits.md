@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Contando os commits de um repositório git
+title: CLI - Contando os commits de um repositório git
 date: 2018-06-22 19:45
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Obter o nome completo de uma classe
+title: PHP - Obter o nome completo de uma classe
 date: 2018-06-26 18:04
 ---
 

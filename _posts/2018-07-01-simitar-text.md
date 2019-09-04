@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Verificando a similaridade entre duas strings em PHP
+title: PHP - Verificando a similaridade entre duas strings
 date: 2018-07-01 11:32
 ---
 
