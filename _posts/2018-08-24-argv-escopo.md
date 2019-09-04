@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Escopo da variável argv do PHP
+title: PHP - O escopo da variável argv
 date: 2018-08-24 18:48
 ---
 
