@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Uso básico do Doctrine DBAL
+title: PHP - Uso básico do Doctrine DBAL
 ---
 
 A biblioteca Doctrine DBAL oferece uma camada adicional por cima da PDO, com isso ela disponibiliza uma API de alto nível que simplifica operações que são mais verbosas e repetitivas com o PDO. Essa API conta com alguns métodos bastante úteis para fazer operações básicas de [CRUD](https://pt.wikipedia.org/wiki/CRUD).
