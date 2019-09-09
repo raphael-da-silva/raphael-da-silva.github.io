@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Condição invertida aka Yoda Condition
+title: Codificação - Condição invertida aka Yoda Condition
 date: 2018-06-16 00:00
 ---
 

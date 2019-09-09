@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ferramentas - Ambiente com PHP no Windows com Laragon
+title: Ferramentas - Ambiente no Windows com Laragon
 ---
 
 Confesso que nunca gostei muito de configurar ambientes para desenvolvimento, sempre preferi dedicar tempo para o código-fonte do projeto. Por isso, sempre utilizei programas que empacotam as principais ferramentas para desenvolvimento, comecei como todo mundo utilizando Xampp. Depois utilizei Linux por alguns anos e continuei com o Xampp, só que configurando Virtual Hosts manualmente.

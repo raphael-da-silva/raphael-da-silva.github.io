@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PHP - Fechando referência a arquivos abertos
+title: PHP - Lembrando de fechar as referências de arquivos abertos
 date: 2018-06-20 13:48
 ---
 
