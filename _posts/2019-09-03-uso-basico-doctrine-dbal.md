@@ -70,7 +70,7 @@ $dbal->insert('noticias', [
 
 ```php
 
-$dbal->delete('noticiss', [
+$dbal->delete('noticias', [
     'Id' => 1
 ]);
 
@@ -101,10 +101,10 @@ Buscar uma coluna de um registro:
 ```php
 
 $title = $dbal->fetchColumn('SELECT Titulo FROM noticias WHERE Id = :id', [
-'Id' => 1] 'Titulo');
+'Id' => 1], 0);
 
 ```
 
 ## Conclusão
 
-A biblioteca Doctrine DBAL é uma ótima opção para acesso ao banco de dados com PHP. Através dela as operações básicas são simplicadas, o que é de grande ajuda para agilizar as coisas.
+A biblioteca Doctrine DBAL é uma ótima opção para o acesso ao banco de dados com PHP. Através dela as operações básicas são simplicadas, o que é de grande ajuda para agilizar as coisas.
