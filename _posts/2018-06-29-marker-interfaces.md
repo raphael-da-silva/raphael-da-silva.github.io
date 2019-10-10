@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Interfaces sem métodos. Qual a utilidade disso?
+title: POO - Interfaces sem métodos. Qual a utilidade disso?
 date: 2018-06-29 10:39
 ---
 

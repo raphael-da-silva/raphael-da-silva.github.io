@@ -55,11 +55,17 @@ $dbal->insert('noticias', [
 
 ```php
 
-$dbal->insert('noticias', [
+$inserId = $dbal->insert('noticias', [
     'Titulo' => 'Notícia nova (atualizada)!',
     'Texto'  => 'Texto da notícia nova (atualizada).'
 ], ['Id' => 1]);
 
+```
+
+Para obter o id do registro insertido, basta usar o método ```lastInsertId```
+
+```php
+$lastInsertId = $dbal->lastInsertId();
 ```
 
 ### Método ```delete```
