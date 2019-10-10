@@ -55,7 +55,7 @@ $dbal->insert('noticias', [
 
 ```php
 
-$inserId = $dbal->insert('noticias', [
+$inserId = $dbal->update('noticias', [
     'Titulo' => 'Notícia nova (atualizada)!',
     'Texto'  => 'Texto da notícia nova (atualizada).'
 ], ['Id' => 1]);
@@ -107,7 +107,7 @@ Buscar uma coluna de um registro:
 ```php
 
 $title = $dbal->fetchColumn('SELECT Titulo FROM noticias WHERE Id = :id', [
-'Id' => 1], 0);
+'Id' => 1]);
 
 ```
 
