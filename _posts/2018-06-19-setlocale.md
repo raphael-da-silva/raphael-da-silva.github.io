@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PHP - Definindo a localização
+title: PHP - Definindo a localização com a função setlocale
 date: 2018-06-19 22:18
 ---
 

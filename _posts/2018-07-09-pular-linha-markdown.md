@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Markdown - Pular linha em markdown
+title: Markdown - Pular uma linha em conteúdo escrito com markdown
 date: 2018-07-09 16:56
 ---
 

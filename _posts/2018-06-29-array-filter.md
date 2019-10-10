@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PHP - A função array_filter sem nenhum parâmetro
+title: PHP - A utilidade da função array_filter sem nenhum parâmetro
 date: 2018-06-29 19:28
 ---
 
