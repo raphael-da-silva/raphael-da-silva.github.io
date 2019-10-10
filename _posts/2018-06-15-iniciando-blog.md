@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Iniciando o blog
+title: Iniciando mais um blog de programação na web
 date: 2018-06-15 21:00
 ---
 
