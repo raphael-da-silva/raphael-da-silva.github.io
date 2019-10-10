@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PHP - Converter array para objeto
+title: PHP - Converter array para objeto rapidamente
 date: 2018-06-16 13:36
 ---
 
