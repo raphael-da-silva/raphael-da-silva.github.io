@@ -4,7 +4,7 @@ title: Markdown - Pular uma linha em conteúdo escrito com markdown
 date: 2018-07-09 16:56
 ---
 
-Em uma determinada ocasião, precisei quebrar uma linha em um conteúdo escrito em markdown. Depois de uma pesquisa encontrei como isso é feito. Basicamente, para quebrar linha é preciso utilizar barra invertida ``` \ ```.
+Em uma determinada ocasião, precisei quebrar uma linha em um conteúdo escrito em markdown. Depois de uma pesquisa encontrei como isso é feito. Basicamente, para quebrar linha é preciso utilizar ``` \ ``` (barra invertida).
 
 ```markdown
 
