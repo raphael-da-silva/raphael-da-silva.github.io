@@ -45,6 +45,11 @@ $dbal->insert('noticias', [
 ]);
 
 ```
+Para obter o id do registro insertido, basta usar o método ```lastInsertId```
+
+```php
+$lastInsertId = $dbal->lastInsertId();
+```
 
 ### Método ```update```
 
@@ -55,17 +60,11 @@ $dbal->insert('noticias', [
 
 ```php
 
-$inserId = $dbal->update('noticias', [
+$dbal->update('noticias', [
     'Titulo' => 'Notícia nova (atualizada)!',
     'Texto'  => 'Texto da notícia nova (atualizada).'
 ], ['Id' => 1]);
 
-```
-
-Para obter o id do registro insertido, basta usar o método ```lastInsertId```
-
-```php
-$lastInsertId = $dbal->lastInsertId();
 ```
 
 ### Método ```delete```
@@ -107,7 +106,8 @@ Buscar uma coluna de um registro:
 ```php
 
 $title = $dbal->fetchColumn('SELECT Titulo FROM noticias WHERE Id = :id', [
-'Id' => 1]);
+    'Id' => 1
+]);
 
 ```
 
