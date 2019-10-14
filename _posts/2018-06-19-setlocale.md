@@ -16,4 +16,4 @@ Quero salientar dois pontos importantes do código acima:
 
 * A função aceita um número indefinido de valores a partir do segundo parâmetro. Ou seja, ela é uma função variádica.
 
-* Caso algum valor não seja suportado, a função irá tentar utilizar o próximo valor e assim sucessivamente. No exemplo, caso "PT-BR" não seja suportado o  valor "portuguese" será utilizado.
+* Caso algum valor não seja suportado, a função irá tentar utilizar o próximo valor e assim sucessivamente. No exemplo, caso "PT-BR" não seja suportado o  valor ```portuguese``` será utilizado.

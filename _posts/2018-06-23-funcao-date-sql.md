@@ -9,10 +9,10 @@ Em uma determinada situação precisei comparar as datas em uma busca, entretant
 ```sql
 #
 # Comparação de data quando o campo é datetime.
-# É necessário utilizar a função DATE para pegar apenas a data, e não o horário.
+# É necessário utilizar a função DATE para pegar apenas a data (sem horário).
 #
 SELECT * FROM news 
-WHERE DATE(CreationDate) >= :dateFrom
-AND DATE(CreationDate) <= :dateTo
+WHERE DATE(CreationDate) >= '2018-06-23'
+AND DATE(CreationDate) <= '2018-06-23'
 ORDER BY CreationDate DESC
 ```
