@@ -15,6 +15,8 @@ Pesquisando eu encontrei o [Laragon](https://laragon.org/download/), logo de car
 
 * A interface gráfica dele oferece um menu que acessa configurações do PHP rapidamente, outra vantagem é a possibilidade de adicionar versões diferentes do PHP e trocá-las rapidamente através desse menu. Com isso, é possível alternar da versão 5 para a 7 da linguagem para utilizá-las em diferentes projetos.
 
-* Ele sobe os serviços rapidamente. Na sua versão portátil tudo é muito rápida, até porque ela é a mais simples.
+* Ele sobe os serviços rapidamente. Na sua versão portátil tudo é muito rápida, até porque essa é a versão mais simples.
+
+* E-mails enviados com a função ```mail``` do PHP são convertidos para arquivos que podem ser acessados através da interface do Laragon para serem abertos com programas de cliente de e-mail como o Outlook.
 
 Enfim, essa ferramenta está sendo uma opção boa, pois oferece uma praticidade que agiliza muito as coisas na hora de rodar um projeto.
