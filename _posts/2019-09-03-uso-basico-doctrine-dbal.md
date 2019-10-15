@@ -24,10 +24,14 @@ $dbal = \Doctrine\DBAL\DriverManager::getConnection([
     'password' => 'senha',
     'host'     => 'localhost',
     'driver'   => 'pdo_mysql',
-    'driverOptions' => []
+    'driverOptions' => [
+        PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'
+    ]
 ]);
 
 ```
+
+OBS: a opção definida com a constante ```MYSQL_ATTR_INIT_COMMAND``` da PDO serve para que o charset usado seja UTF-8.
 
 ## Operações de CRUD
 
