@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A ordem de execução dos middlewares no Slim framework
+title: PHP - A ordem de execução dos middlewares no Slim framework
 ---
 
 Quando um middleware é adicionado no Slim Framework a ordem seguida na execução não é a esperada a primeira vista. Isso ocorre porque o framework segue o conceito [LIFO (Last In, First Out)](https://pt.wikipedia.org/wiki/LIFO), onde o primeiro a ser adicionado é o último a ser executado. O código a seguir ilustra isso.
