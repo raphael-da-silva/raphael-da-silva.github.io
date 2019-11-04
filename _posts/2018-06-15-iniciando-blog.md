@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Iniciando mais um blog de programação na web
+title: Iniciando mais um blog de programação
 date: 2018-06-15 21:00
 ---
 
@@ -8,10 +8,12 @@ O intuíto desse blog é compartilhar algumas experiências sobre programação,
 
 Esse é o meu primeiro passo para fixar conhecimento e buscar expressá-lo de forma simples. Espero ajudar alguém no meio do processo.
 
-Até o próximo post!
-
 ```php
 
+$blog = new Blog;
+$blog->setAuthor('Raphael da Silva');
 $blog->start();
 
 ```
+
+Até o próximo post!
