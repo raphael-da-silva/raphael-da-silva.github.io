@@ -9,13 +9,14 @@ O operador splat é um operador formado por três pontos ```...``` utilizado par
 
 function printMessages(...$messages){
 
-    foreach($messages as message){
+    foreach($messages as $message){
         echo $message, PHP_EOL;
     }
 
 }
 
-printMessages('Olá', 'Adeus', 'Como vai?');
+printMessages('Olá', 'Adeus', 'Como vai?', 'Será que algo vai melhorar?');
+
 ```
 
 Como é possível perceber, a função pode receber um número infinito de parâmetros, no exemplo foram passadas três strings. O operador splat foi usado antes do nome do parâmetro da função, isso serve para indicar que ela pode receber um lista de ilimitada de argumentos.
@@ -27,9 +28,11 @@ Além da declaração dos parâmetros de uma função variádica, o operador spl
 $messages = [
     'Olá',
     'Adeus',
-    'Como vai?'
+    'Como vai?',
+    'Será que algo vai melhorar?'
 ];
 
 // Convertendo o array para argumentos
 printMessages(...$messages);
+
 ```
