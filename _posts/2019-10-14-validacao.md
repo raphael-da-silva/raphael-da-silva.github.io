@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Validação - Back-end vs. Front-end
+title: Validação - Uma reflexão sobre Back-end e Front-end
 ---
 
 A validação de dados do usuário (input) pode ser feita no back-end (com a linguagem no lado do servidor) e no front-end (com Javascript). O ideal é que sejam feitas em ambas, pois cada uma oferece diferentes vantagems e desvantagens e, por isso, uma acaba complementando a outra.

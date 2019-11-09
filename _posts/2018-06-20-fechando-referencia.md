@@ -16,4 +16,4 @@ fclose($file);
 unlink($file);
 ```
 
-Sei que isso pode parecer óbvio, mas para mim não foi. Por isso, acho válido compartilhar essa informação para lembrar de checar se a referência do arquivo foi fechada corretamente.
+Sei que isso pode parecer óbvio, mas para mim não foi quando aconteceu. Por isso, acho válido compartilhar essa informação para lembrar de checar se a referência do arquivo foi fechada corretamente.
