@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Um resumo sobre o MVC
+title: Conceitos - Um resumo sobre o MVC
 ---
 
 Neste post vou abordar o MVC de uma forma que foque no propósito de cada camada de separação, depois será feita uma reflexão sobre o uso desse modelo de separação atualmente para a web.
