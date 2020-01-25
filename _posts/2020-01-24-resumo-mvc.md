@@ -37,4 +37,4 @@ A camada de view gera a parte que o usuário vai visualizar, o que no contexto d
 
 ### O MVC e a web atualmente
 
-o MVC foi criado para Desktop, portanto ele não foi pensado para web, apenas foi portado para ela. Hoje existem os micro-frameworks com routers que refletem melhor o funcionamento da web e foram pensados para esse tipo de ambiente. Apesar dessa opção, o MVC ainda é usado em frameworks full-stack.
+o MVC foi criado para Desktop, portanto ele não foi pensado para web, apenas foi portado para ela. Hoje existem os micro-frameworks com routers que refletem melhor o funcionamento da web e foram pensados para esse tipo de ambiente. Apesar dessa opção, o MVC ainda é usado em frameworks full-stack e, portanto, ainda é válido entendê-lo.
