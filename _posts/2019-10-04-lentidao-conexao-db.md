@@ -18,4 +18,4 @@ $dbal = \Doctrine\DBAL\DriverManager::getConnection([
 ]);
 ```
 
-
+**Isso pode ser óbvio, mas para mim não era, então acho válido registrar isso para lembrar e não deixar essas pequenas coisas atrapalharem de novo.**

@@ -15,7 +15,12 @@ function printMessages(...$messages){
 
 }
 
-printMessages('Olá', 'Adeus', 'Como vai?', 'Será que algo vai melhorar?');
+printMessages(
+    'Olá', 
+    'Adeus', 
+    'Como vai?', 
+    'Será que algo vai melhorar?'
+);
 
 ```
 
