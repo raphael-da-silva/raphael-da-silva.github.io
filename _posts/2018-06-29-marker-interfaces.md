@@ -22,4 +22,4 @@ if($objeto instanceof Serializable){
 }
 ```
 
-Como é possível perceber, uma maker interface serve para poder identificar um objeto e decidir fazer algo com ele.
+Como é possível perceber, uma maker interface serve para poder identificar um objeto e, com isso, decidir fazer algo com ele.
