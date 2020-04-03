@@ -13,4 +13,13 @@ interface Serializable
 }
 ```
 
-Mesmo parecendo que o código acima não tem propósito, ele tem sim. Com esse tipo de interface se define um tipo, o objetivo é utilizar esse tipo para tomar alguma decisão, ou seja, esse tipo de interface identifica um objeto para fazer algo com ele.
+Mesmo parecendo que o código acima não tem propósito, ele tem sim. Com esse tipo de interface se define um tipo, o objetivo é utilizar esse tipo para tomar alguma decisão, ou seja, esse tipo de interface identifica um objeto para fazer algo com ele. Por exemplo:
+
+```php
+
+if($objeto istanceof Serializable){
+    // Fazer alguma coisa com o objeto que implementa a interface.
+}
+```
+
+Como é possível perceber, uma maker interface serve para poder identificar um objeto e decidir fazer algo como.
