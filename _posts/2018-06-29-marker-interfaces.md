@@ -17,9 +17,9 @@ Mesmo parecendo que o código acima não tem propósito, ele tem sim. Com esse t
 
 ```php
 
-if($objeto istanceof Serializable){
+if($objeto instanceof Serializable){
     // Fazer alguma coisa com o objeto que implementa a interface.
 }
 ```
 
-Como é possível perceber, uma maker interface serve para poder identificar um objeto e decidir fazer algo como.
+Como é possível perceber, uma maker interface serve para poder identificar um objeto e decidir fazer algo com ele.
