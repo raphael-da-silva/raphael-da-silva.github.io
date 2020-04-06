@@ -23,7 +23,7 @@ interface MidiaParaContarHistoria
 }
 ```
 
-Como a história é contatada não é importante, pois o que importa é a história ser contada e não qual tipo de mídia será utilizada para fazer isso. O tipo de mídia é um detalhe de implementação e, portanto, não é o mais importante. O que é mais importante é o que deve ser feito: contar uma história.
+Como a história é contada não é importante, pois o que importa é a história ser contada e não qual tipo de mídia que será utilizada para fazer isso. O tipo de mídia é um detalhe de implementação e, portanto, não é o mais importante. O que é mais importante é o que deve ser feito: contar uma história.
 
 ### Implementações
 
