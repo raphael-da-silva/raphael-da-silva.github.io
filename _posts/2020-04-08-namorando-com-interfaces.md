@@ -140,4 +140,4 @@ class Namorada
 }
 ```
 
-Como é possível perceber, a namorada espera alguém que atenda o comportamento esperado, logo **ela confia na interface que atenda isso e todo mundo sabe que confiança é a base para um relacionamento (tando em objetos quanto em namoros).**
+Como é possível perceber, a namorada espera alguém que atenda o comportamento esperado, logo **ela confia na interface que atenda isso e todo mundo sabe que confiança é a base para um relacionamento (tanto em objetos quanto em namoros).**
