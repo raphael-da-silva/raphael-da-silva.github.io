@@ -3,7 +3,7 @@ layout: post
 title: Take care of yourself
 ---
 
-This is my first post writed in english language, please be nice with me and forgive my mistakes. After this disclaimer I will start the article subject.
+***This is my first post writed in english language, please be nice with me and forgive my mistakes. After this disclaimer I will start the article subject.***
 
 I came from a terrible moment in my programmer life (and my personal life too). I dropped 2 jobs cause mental issues combined with personal issues, I was in a condition with no energy and too much anxiety. This situation made me stopped jobs after colapses.
 
