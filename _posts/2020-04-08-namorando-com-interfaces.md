@@ -3,13 +3,13 @@ layout: post
 title: Post de Quarentena - Namorando com interfaces
 ---
 
-Imagine que uma moça quer namorar e deseja que seu namorado seja carinho. Para isso, o namorado deve se comportar de certa maneira, pois para ser carinhoso ele deve fazer o seguinte:
+Imagine que alguém quer namorar e deseja que seu namorado seja carinhoso. Para isso, o namorado deve se comportar de certa maneira, pois para ser carinhoso ele deve fazer o seguinte:
 
 * Beijar
 * Abraçar
 * Entrelaçar os dedos
 
-Ou seja, para ser um namorado para ela, o namorado deve implementar a seguinte interface:
+Ou seja, para ser o namorado esperado, o namorado deve implementar a seguinte interface e fazer as seguintes operações:
 
 ```php
 <?php
@@ -31,7 +31,7 @@ interface NamoradoCarinhoso
 }
 ```
 
-Agora um cara carinhoso mais introvertido pode implementar essa interface fazendo as ações do seu jeito (de acordo com a sua implementação):
+Agora um cara carinhoso mais introvertido pode implementar essa interface fazendo as ações (operações) do seu jeito (de acordo com a sua implementação):
 
 ```php
 <?php
@@ -105,14 +105,14 @@ class CaraExtrovertido implements NamoradoCarinhoso
 }
 ```
 
-Para a moça um cara que atenda a interface ```NamoradoCarinhoso``` poderá ser um namorado para ela, pois ela procura alguém que seja carinhoso e se comporte dessa forma como a interface representa.
+Para a namorada um cara que atenda a interface ```NamoradoCarinhoso``` poderá ser um namorado para ela, pois ela procura alguém que seja carinhoso e se comporte dessa forma como a interface representa. Segue a classe que representa a namorada:
 
 ```php
 <?php
 
 /**
  *
- * @author Raphael C. Silva
+ * @author Raphael da Silva
  *
  */
 class Namorada
