@@ -3,7 +3,7 @@ layout: post
 title: Reflexão - Sobre a validação de dados no Back-end e Front-end
 ---
 
-Confesso que validação de dados nunca foi o meu forte. Na verdade, validação sempre foi um dos meus maiores pontos fraces, pois aprendi a fazer isso errado no começo da carreira, já que eu tive os primeiros contatos no estágio com projetos que só validavam os dados no front-end, logo eu achava que aquela era a única forma de fazer. Além de aprender errado, eu nunca achei essa parte muito legal, pois sempre achei ela burocrática demais (apesar de extremamente necessária).
+Confesso que validação de dados nunca foi o meu forte. Na verdade, validação sempre foi um dos meus maiores pontos fracos, pois aprendi a fazer isso errado no começo da carreira, já que eu tive os primeiros contatos no estágio com projetos que só validavam os dados no front-end, logo eu achava que aquela era a única forma de fazer. Além de aprender errado, eu nunca achei essa parte muito legal, pois sempre achei ela burocrática demais (apesar de extremamente necessária).
 
 Depois de anos estudando programação e, principalmente, a parte de back-end com PHP, eu comecei a me conscientizar da importância de validar os dados de entrada (aka input) no back-end, também aprendi que a validação de front-end é apenas uma comodidade para o usuário não ter que recarregar a página indo e voltando em várias requisições. Aprender errado é sempre um problema (e desgaste), pois é preciso se corrigir para depois começar a aprender o jeito certo.
 
