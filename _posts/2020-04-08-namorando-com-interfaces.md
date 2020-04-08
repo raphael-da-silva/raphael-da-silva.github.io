@@ -16,7 +16,7 @@ Ou seja, para ser um namorado para ela, o namorado deve implementar a seguinte i
 
 /**
  *
- * @author Raphael C. Silva
+ * @author Raphael da Silva
  *
  */
 interface NamoradoCarinhoso
@@ -38,7 +38,7 @@ Agora um cara carinhoso mais introvertido pode implementar essa interface fazend
 
 /**
  *
- * @author Raphael C. Silva
+ * @author Raphael da Silva
  *
  */
 class CaraIntrovertido implements NamoradoCarinhoso
@@ -75,7 +75,7 @@ Além do cara mais introvertido, um cara mais extrovertido também pode implemen
 
 /**
  *
- * @author Raphael C. Silva
+ * @author Raphael da Silva
  *
  */
 class CaraExtrovertido implements NamoradoCarinhoso
@@ -140,4 +140,4 @@ class Namorada
 }
 ```
 
-Como é possível perceber, a namorada espera alguém que atenda o comportamento esperado, logo ela confia na interface que atenda isso e todo mundo sabe que confiança é a base para um relacionamento (tando em objetos quanto em namoros).
+Como é possível perceber, a namorada espera alguém que atenda o comportamento esperado, logo **ela confia na interface que atenda isso e todo mundo sabe que confiança é a base para um relacionamento (tando em objetos quanto em namoros).**
