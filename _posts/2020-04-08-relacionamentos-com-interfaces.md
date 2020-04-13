@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Post de Quarentena - Namorando através de uma interface
+title: Post de Quarentena - Relacionamentos e interfaces
 ---
 
 Imagine que alguém quer namorar e deseja que seu namorado seja carinhoso. Para isso, o namorado deve se comportar de certa maneira, pois para ser carinhoso ele deve fazer o seguinte:
