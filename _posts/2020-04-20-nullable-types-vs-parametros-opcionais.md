@@ -3,9 +3,7 @@ layout: post
 title: Post de quarentena - Nullable types vs. Parâmetros opcionais
 ---
 
-[Nullable Types](https://wiki.php.net/rfc/nullable_types) é um recurso adicionado a partir da versão 7.1 do PHP, ele serve para permitir que um parâmetro possa receber nulo além do tipo definido como type hinting.
-
-A função ```printName``` espera um parâmetro do tipo ```StdClass```, só que o ponto de interrogação (?) antes da declaração do tipo define esse parâmetro como nullable type.
+[Nullable Types](https://wiki.php.net/rfc/nullable_types) é um recurso adicionado a partir da versão 7.1 do PHP, ele serve para permitir que um parâmetro possa receber nulo além do tipo definido como type hinting. A função ```printName``` a seguir espera um parâmetro do tipo ```StdClass```, só que o ponto de interrogação (?) antes da declaração do tipo define esse parâmetro como nullable type.
 
 ```php
 <?php
