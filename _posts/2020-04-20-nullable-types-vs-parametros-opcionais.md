@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PHP - Nullable types vs. Parâmetros opcionais
+title: Post de quarentena - Nullable types vs. Parâmetros opcionais
 ---
 
 Nullable Types é um recurso adicionado a partir da versão 7.1 do PHP, ele serve para permitir que um parâmetro possa receber nulo além do tipo definido como type hinting.
@@ -29,7 +29,7 @@ Como o parâmetro é nullable type, ele pode ser executado de duas formas: passa
 <?php
 
 $user = new \StdClass;
-$user->Name = 'Usuário da Silva';
+$user->name = 'Usuário da Silva';
 
 printName($user); // Imprime 'Meu nome é Usuário da Silva'
 printName(null); // Imprime 'Nenhum nome!'
@@ -54,7 +54,7 @@ function printName(StdClass $user = null)
 }
 
 $user = new \StdClass;
-$user->Name = 'Usuário da Silva';
+$user->name = 'Usuário da Silva';
 
 printName($user); // Imprime 'Meu nome é Usuário da Silva'
 printName(null); // Imprime 'Nenhum nome!'
