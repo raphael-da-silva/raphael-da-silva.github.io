@@ -16,4 +16,13 @@ $blog->start();
 
 ```
 
+Se você não gosta de setter e mutabilidade, não tem problema! Segue o código para você (passando o autor no construtor).
+
+```php
+
+$blog = new Blog('Raphael da Silva');
+$blog->start();
+
+```
+
 Até o próximo post!
