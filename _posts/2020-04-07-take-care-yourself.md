@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Take care of yourself
+title: Take care of yourself - So much on my mind I just can’t recline
 ---
 
 ***This is my first post writed in english language, please be nice with me and forgive my mistakes. After this disclaimer I will start the article subject.***
