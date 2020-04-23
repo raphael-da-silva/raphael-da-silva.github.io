@@ -11,8 +11,9 @@ title: Post de quarentena - Nullable types vs. Parâmetros opcionais
 function printName(?StdClass $user)
 {
 
-    if(!is_null($user))}{
+    if(!is_null($user)){
         echo sprinf('Meu nome é %s', $user->name);
+        return;
     }
     
     echo 'Nenhum nome!';
@@ -43,8 +44,9 @@ Isso difere o recurso de nullable types dos parâmetros opcionais, pois quando u
 function printName(StdClass $user = null)
 {
 
-    if(!is_null($user))}{
+    if(!is_null($user)){
         echo sprinf('Meu nome é %s', $user->name);
+        return;
     }
     
     echo 'Nenhum nome!';
