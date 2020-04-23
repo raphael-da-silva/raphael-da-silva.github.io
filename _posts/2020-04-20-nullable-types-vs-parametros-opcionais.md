@@ -63,4 +63,4 @@ printName(null); // Imprime 'Nenhum nome!'
 printName(); // Imprime 'Nenhum nome!'
 
 ```
-Como é possível perceber na terceira execução da função, nenhum parâmetro está sendo passado, isso é possível porque o parâmetro foi declarado como opcional. Essa é a diferença principal, já que no nullable type não dá para omitir um parâmetro, pois é necessário que ela receba um valor nulo (além do tipo esperado).
+Como é possível perceber na terceira execução da função, nenhum parâmetro está sendo passado, isso é possível porque o parâmetro foi declarado como opcional. Essa é a diferença principal, já que no nullable type não dá para omitir um parâmetro, pois é necessário que ele receba um valor nulo explicitamente (além do tipo esperado, é claro).
