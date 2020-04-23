@@ -12,11 +12,11 @@ function printName(?StdClass $user)
 {
 
     if(!is_null($user)){
-        echo sprinf('Meu nome é %s', $user->name);
+        echo sprinf('Meu nome é %s', $user->name), PHP_EOL;
         return;
     }
     
-    echo 'Nenhum nome!';
+    echo 'Nenhum nome!', PHP_EOL;
 
 }
 
@@ -45,11 +45,11 @@ function printName(StdClass $user = null)
 {
 
     if(!is_null($user)){
-        echo sprinf('Meu nome é %s', $user->name);
+        echo sprinf('Meu nome é %s', $user->name), PHP_EOL;
         return;
     }
     
-    echo 'Nenhum nome!';
+    echo 'Nenhum nome!', PHP_EOL;
 
 }
 
