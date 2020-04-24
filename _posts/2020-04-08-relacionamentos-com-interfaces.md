@@ -105,7 +105,7 @@ class CaraExtrovertido implements NamoradoCarinhoso
 }
 ```
 
-Para a(o) pretendente um cara que atenda a interface ```NamoradoCarinhoso``` poderá ser um namorado que atende sua expectativa, pois a(o) pretendente alguém que seja carinhoso e se comporte dessa forma como a interface representa. Segue a classe que representa a(o) pretendente:
+Para a(o) pretendente um cara que atenda a interface ```NamoradoCarinhoso``` poderá ser um namorado que atende sua expectativa, pois é esperado alguém que seja carinhoso e se comporte dessa forma como a interface representa. Segue a classe que representa a(o) pretendente:
 
 ```php
 <?php
