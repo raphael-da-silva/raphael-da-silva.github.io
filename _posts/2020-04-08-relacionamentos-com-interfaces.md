@@ -9,7 +9,7 @@ Imagine que alguém quer namorar e deseja que seu namorado seja carinhoso. Para 
 * Abraçar
 * Entrelaçar os dedos
 
-Ou seja, para ser o namorado esperado, o namorado deve implementar a seguinte interface e fazer as seguintes operações:
+Ou seja, para ser o namorado esperado, o namorado deve implementar a seguinte interface e fazer as seguintes ações (operações):
 
 ```php
 <?php
@@ -105,7 +105,7 @@ class CaraExtrovertido implements NamoradoCarinhoso
 }
 ```
 
-Para a namorada um cara que atenda a interface ```NamoradoCarinhoso``` poderá ser um namorado para ela, pois ela procura alguém que seja carinhoso e se comporte dessa forma como a interface representa. Segue a classe que representa a namorada:
+Para a(o) pretendente um cara que atenda a interface ```NamoradoCarinhoso``` poderá ser um namorado que atende sua expectativa, pois a(o) pretendente alguém que seja carinhoso e se comporte dessa forma como a interface representa. Segue a classe que representa a(o) pretendente:
 
 ```php
 <?php
@@ -115,7 +115,7 @@ Para a namorada um cara que atenda a interface ```NamoradoCarinhoso``` poderá s
  * @author Raphael da Silva
  *
  */
-class Namorada
+class Pretendente
 {
 
     private $namorado;
@@ -140,4 +140,4 @@ class Namorada
 }
 ```
 
-Como é possível perceber, a namorada espera alguém que atenda o comportamento esperado, logo **ela confia na interface que atenda isso e todo mundo sabe que confiança é a base para um relacionamento (tanto em objetos quanto em namoros).**
+Como é possível perceber, a(o) pretendente espera alguém que atenda o comportamento esperado, logo **a ela confia na interface que atenda isso e todo mundo sabe que confiança é a base para um relacionamento (tanto em objetos quanto em namoros).**
