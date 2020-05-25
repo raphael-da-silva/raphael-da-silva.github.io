@@ -37,7 +37,7 @@ Sem usar a palavra reservada `static`, a variável `$this` iria apontar para uma
 
 ### Troca de contexto
 
-Vale lembrar que uma função anônima no PHP é uma instância da classe (interna do PHP) `Closure` e essa classe tem métodos como o método `bindTo`, que é responsável por adicionar um novo contexto (aka a variável `$this`) em uma anônima. 
+Vale lembrar que uma função anônima no PHP é uma instância da classe (interna do PHP) [Closure](https://www.php.net/closure) e essa classe tem métodos como o método `bindTo`, que é responsável por adicionar um novo contexto (aka a variável `$this`) em uma anônima. 
 
 Só que trocar de contexto não é possível em uma função declarada como estática, já que ela impossibilita ter contexto. Em outras palavras, não dá para usar o método `bindTo` em função anônima quando ela é estática.
 
