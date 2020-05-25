@@ -10,8 +10,9 @@ Esse é o meu primeiro passo para fixar conhecimento e buscar expressá-lo de fo
 
 ```php
 
-$blog = new Blog;
+$blog = new GithubPagesBlog;
 $blog->setAuthor('Raphael da Silva');
+$blog->setGithubUser('raphael-da-silva');
 $blog->start();
 
 ```
@@ -20,7 +21,7 @@ Se você não gosta de setter e mutabilidade, não tem problema! Segue o código
 
 ```php
 
-$blog = new Blog('Raphael da Silva');
+$blog = new GithubPagesBlog('Raphael da Silva', 'raphael-da-silva');
 $blog->start();
 
 ```
