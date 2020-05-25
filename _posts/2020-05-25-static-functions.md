@@ -82,4 +82,4 @@ Esse comportamento pode ser útil se por algum motivo é necessário evitar que 
 
 ### Atualização
 
-Atualizei um projeto que fiz com Slim Framework para [usar as funções estáticas](https://github.com/raphael-da-silva/frases-de-filmes/commit/fe354880b55b867bed337c5dfe60f98f18d01068) nos arquivos de configuração que isolam o escopo do código.
+Atualizei um projeto que fiz com Slim Framework para [usar as funções estáticas](https://github.com/raphael-da-silva/frases-de-filmes/commit/fe354880b55b867bed337c5dfe60f98f18d01068) nos arquivos de configuração que isolam o escopo do código, pois nessas funções não existe sentido em usar o `$this`.
