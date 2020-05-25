@@ -79,3 +79,7 @@ Ao executar o código acima, o erro a seguir aparece por conta da função anôn
 Esse comportamento alcançado através funções anônimas estáticas é semelhante ao de classes estáticas, já que elas não tem contexto por não serem uma instância de um objeto. Declarar uma função anônima como estática dá essa mesma natureza (de não ter contexto) para a função.
 
 Esse comportamento pode ser útil se por algum motivo é necessário evitar que o `$this` possa ser usado em uma função anônima.
+
+### Atualização
+
+Atualizei um projeto que fiz com Slim Framework para [usar as funções estáticas](https://github.com/raphael-da-silva/frases-de-filmes/commit/fe354880b55b867bed337c5dfe60f98f18d01068) nos arquivos de configuração que isolam o escopo do código.
