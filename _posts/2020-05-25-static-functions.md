@@ -63,7 +63,7 @@ class Contexto
         $novoContexto->texto = 'Esse objeto é o novo contexto.';
 
         // Isso não é possível porque a função foi criada estática
-        $funcaoSemContexto->bindTo($novoContexto);
+        $funcaoSemContexto = $funcaoSemContexto->bindTo($novoContexto);
         $funcaoSemContexto();
         
     }
