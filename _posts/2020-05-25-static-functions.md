@@ -3,7 +3,7 @@ layout: post
 title: PHP - Funções anônimas estáticas
 ---
 
-Olhando um repositório no Github (uma dia antes da criação desse post) me achamou a atenção o uso da palavra reservada `static` em uma função anônima, pois eu nunca tinha visto isso e, portanto, não sabia que existia essa possibilidade no PHP. Depois de estudar resolvi [escrever](https://raphael-da-silva.github.io/) sobre isso.
+Olhando um repositório no Github (uma dia antes da criação desse post) me achamou a atenção o uso da palavra reservada `static` em uma função anônima, pois eu nunca tinha visto isso e, portanto, não sabia que existia essa possibilidade no PHP. Depois de estudar resolvi [escrever](https://raphael-da-silva.github.io/escrita-io/) sobre isso.
 
 ### A finalidade
 
@@ -17,7 +17,7 @@ class Contexto
     
     public function exemplo(){
         
-        $funcaoSemContexto = function(){
+        $funcaoSemContexto = static function(){
 
             // Essa variável é indefinida no escopo dessa função.
             var_dump($this);
