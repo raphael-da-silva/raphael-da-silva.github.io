@@ -5,9 +5,10 @@ title: Ferramentas - Ambiente no Windows com Laragon
 
 Confesso que nunca gostei muito de configurar ambientes para desenvolvimento, sempre preferi dedicar tempo para o código-fonte do projeto. Por isso, sempre utilizei programas que empacotam as principais ferramentas para desenvolvimento, comecei como todo mundo utilizando Xampp. Depois utilizei Linux por alguns anos e continuei com o Xampp, só que configurando Virtual Hosts manualmente.
 
-Quando voltei para o Windows passei a usar o Wammp, pois ele parecia uma ferramenta mais moderna e prática do que do Xampp, além disso, ele permitia a criação de Virtual Hosts no Windows de forma prática e rápída. No entanto, ele deu alguns problemas e isso me frustrou, consequentemente fui buscar alternativas.
+Quando voltei para o Windows passei a usar o Wammp, pois ele parecia uma ferramenta mais moderna e prática do que do Xampp, além disso, ele permitia a criação de Virtual Hosts no Windows de forma prática e rápída. No entanto, ele deu alguns problemas e isso me frustrou, consequentemente fui b
+uscar alternativas.
 
-### A solução encontrada
+### A solução encontrada: Laragon
 
 Pesquisando eu encontrei o [Laragon](https://laragon.org/download/), logo de cara ele parecia uma proposta mais interessante, já que ele parece uma evolução das ferramentas citadas anteriormente. Baixei a versão portátil que vem só com o PHP, um servidor Nginx e o MySQL. Logo de cara, existem as seguintes vantagens:
 

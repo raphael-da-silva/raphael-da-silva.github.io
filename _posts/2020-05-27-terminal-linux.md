@@ -7,7 +7,7 @@ Este post tem o objetivo de mostrar os comandos básicos para o terminal do Linu
 
 ***
 
-# Terminal Linux
+## Comandos do terminal Linux
 
 Seguem os comandos separados por tópicos.
 

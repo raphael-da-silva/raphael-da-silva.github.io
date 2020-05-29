@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Banco de dados - Resolvendo a lentidão na conexão com o banco dados
+title: Banco de dados - Resolvendo a lentidão na conexão
 ---
 
 Programando no Windows 10 tive um problema de performance utilizando MySQL, achei que poderia ser algum problema com o ambiente novo, porém depois de tentar encontrar o problema, encontrei uma resposta do Stackoverflow que dizia para trocar o host. Basicamente, é necessário trocar localhost para o número de ip do ambiente local.

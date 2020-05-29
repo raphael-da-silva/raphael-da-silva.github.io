@@ -5,6 +5,8 @@ title: Post de quarentena - Injetar é sempre uma opção mais flexível
 
 Realizar a injeção de dependência com implementações específicas pode parecer uma prática sem sentido a primeira vista, já que a injeção de dependência prioriza o uso de abstrações. No entanto, ao injetar uma implementação ainda é possível variar o seu comportamento através da herança. Ou seja, a variação de comportamento ainda é possível, mesmo que de forma mais limitada do que quando é utilizada uma abstração.
 
+### Estendendo as dependências injetadas
+
 Ao usar herança para estender a implementação injetada, é possível  mudar seu comportamento sobrescrevendo seus métodos (públicos ou protegidos), resultando em polimorfismo para quem depende da implementaçã que foi injetada. Além disso, existem outras vantagens:
 
 * Injetar torna as dependências utilizadas explicitas e, portanto, o código fica mais legível. Independente de ser uma implementação ou abstração que está sendo injetada, as dependências do objeto ficam explicítas.
