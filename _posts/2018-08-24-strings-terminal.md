@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CLI - Passando strings complexas como argumentos
+title: CLI - Usando strings complexas como argumentos
 date: 2018-08-24 18:48
 ---
 

@@ -13,4 +13,4 @@ echo \MeuPacote\MinhaClasse::class;
 
 ```
 
-A vantagem de utilizar esse recurso está no nome da classe já ser obtido com seu namespace completo, o que é útil em casos onde é preciso não só do nome, mas também do namespace onde a classe se encontra.
+A vantagem de utilizar esse recurso está no nome da classe já ser obtido com seu namespace completo, o que é útil em casos onde é preciso não só do nome, mas também do namespace completo onde a classe se encontra.

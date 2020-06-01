@@ -25,3 +25,12 @@ $dotenv->load();
 Como é possível perceber, o uso da biblioteca é bastante simples, além disso, o isolamento do código e dos valores de configuração torna desnecessário a mudança de valores ao trocar o ambiente de desenvolvimento para o de produção. Basta que o arquivo ```.env``` esteja com os valores certos no ambiente de produção.
 
 Para obter os valores adicionados no código PHP, é possível utilizar as variáveis superglobais ```$_ENV``` e ```$_SERVER``` ou, então, utilizar a função ```getenv``` para fazer isso.
+
+### Atualização da biblioteca
+
+A partir da versão 4.* a API da biblioteca mudou, com isso o exemplo desse post serve apenas para a versão 3. Na versão 4 o código para carregar as variáveis de ambiente é o seguinte:
+
+```php
+$dotenv = \Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+```

@@ -27,6 +27,9 @@ class Arg
 
 }
 ```
+
+### Alternativa sem variáveis globais
+
 Para quem se incomoda com o uso de variáveis globais e sabe dos seus efeitos colaterais, é possível fazer o mesmo de uma maneira mais legível e com menos dependências de contextos externos, para isso basta passar a variável como parâmetro, assim como qualquer outra dependência que é injetada.
 
 ```php

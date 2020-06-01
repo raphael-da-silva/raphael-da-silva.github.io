@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Post de quarentena - Injetar classes concretas é sempre um problema?
+title: Post de quarentena - Injetar classes concretas é sempre um problema? E a PDO?
 ---
 
 Nem sempre é preciso de construções de linguagem para criar abstrações, em outras palavras, nem sempre é necessário de uma inferface ou uma classe abstrata. Quando a classe concreta faz uma abstração, injetá-la é ainda é estar trabalhando de forma flexível. Ou seja, nesse tipo de situação uma classe concreta já é uma abstração suficiente.
