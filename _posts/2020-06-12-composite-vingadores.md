@@ -52,7 +52,7 @@ class PanteraNegra implements Vingador
     public function avante()
     {
 
-        return 'Atacar com o equilíbrio perfeito entre mente e corpo.';
+        return 'Usar a tecnologia de Wakanda e artes marciais.';
 
     }
 
@@ -64,7 +64,7 @@ class HomemFormiga implements Vingador
     public function avante()
     {
 
-        return 'Encolher e atacar.';
+        return 'Encolher com a tecnologia do Hank Pym.';
 
     }
 
@@ -76,7 +76,7 @@ class DoutorEstranho implements Vingador
     public function avante()
     {
 
-        return 'Projetar magia.';
+        return 'Projetar magia do plano astral.';
 
     }
 
