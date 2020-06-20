@@ -84,3 +84,4 @@ exclude:
   - CNAME
   
 timezone: America/Sao_Paulo
+theme: jekyll-theme-dinky
