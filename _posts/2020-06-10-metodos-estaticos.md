@@ -1,6 +1,6 @@
 ---
 layout: post
-title: POO - Métodos estáticos e seus problemas
+title: POO - Métodos estáticos e seus problemas (em alguns casos)
 ---
 
 Métodos estáticos trazem alguns problemas em certos contextos. O primeiro problema é o acoplamento,  já que os objetos não estão dependendo de instâncias de outras classes de forma parametrizada com injeção de dependência, mas sim de métodos estáticos que são declarados diretamente na classe de forma muito acoplada.
