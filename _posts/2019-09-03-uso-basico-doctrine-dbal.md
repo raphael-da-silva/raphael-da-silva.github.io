@@ -14,7 +14,7 @@ Antes de começar, é preciso instalar a biblioteca com o Composer, para isso é
 composer require "doctrine/dbal"
 
 ```
-Para criar o objeto referente a conexão, a biblioteca disponibiliza o método estático ```getConnection``` da classe ```DriverManager```. Esse método espera um array com as credenciais as informações para fazer a conexão com o banco de dados.
+Para criar o objeto referente a conexão, a biblioteca disponibiliza o método estático `getConnection` da classe `DriverManager`. Esse método espera um array com as credenciais as informações para fazer a conexão com o banco de dados.
 
 ```php
 
@@ -31,11 +31,11 @@ $dbal = \Doctrine\DBAL\DriverManager::getConnection([
 
 ```
 
-OBS: a opção definida com a constante ```MYSQL_ATTR_INIT_COMMAND``` da PDO serve para que o charset usado seja UTF-8.
+OBS: a opção definida com a constante `MYSQL_ATTR_INIT_COMMAND` da PDO serve para que o charset usado seja UTF-8.
 
 ## Operações de CRUD
 
-### Método ```insert```
+### Método `insert`
 
 **Parâmetros:**
 * Primeiro: nome da tabela do banco de dados.
@@ -49,18 +49,18 @@ $dbal->insert('noticias', [
 ]);
 
 ```
-Para obter o id do registro insertido, basta usar o método ```lastInsertId```
+Para obter o id do registro insertido, basta usar o método `lastInsertId`
 
 ```php
 $lastInsertId = $dbal->lastInsertId();
 ```
 
-### Método ```update```
+### Método `update`
 
 **Parâmetros:**
 * Primeiro: nome da tabela do banco de dados.
 * Segundo: array associativo com o nome das colunas e seus valores.
-* Terceiro: array associativo equivalente a clausula ```WHERE``` do SQL.
+* Terceiro: array associativo equivalente a clausula `WHERE` do SQL.
 
 ```php
 
@@ -71,7 +71,7 @@ $dbal->update('noticias', [
 
 ```
 
-### Método ```delete```
+### Método `delete`
 
 **Parâmetros:**
 * Primeiro: nome da tabela do banco de dados.

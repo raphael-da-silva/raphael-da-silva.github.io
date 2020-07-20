@@ -10,7 +10,7 @@ O total de commits de um repositório git é uma informação interessante para 
 git log --oneline | wc -l
 ```
 
-O que o comando acima faz:
+É importante salientar alguns pontos sobre o comando acima **para fixar o que é importante**:
 
 * O git log com o parâmetro --oneline mostra cada mensagem do commit linha por linha.
 

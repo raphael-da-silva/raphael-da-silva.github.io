@@ -14,7 +14,7 @@ similar_text($string, $string, $percentage);
 echo $percentage; 
 ```
 
-É importante salientar alguns pontos sobre o código acima:
+É importante salientar alguns pontos sobre o código acima **para fixar o que é importante**:
 
 * A função retorna o número de caracteres iguais entre as strings. Nesse caso, o número retornado vai ser 11, já que é o tamanho da string, ou seja, aqui elas são completamente iguais.
 

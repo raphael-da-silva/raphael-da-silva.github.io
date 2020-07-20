@@ -16,3 +16,7 @@ WHERE DATE(CreationDate) >= '2018-06-23'
 AND DATE(CreationDate) <= '2018-06-23'
 ORDER BY CreationDate DESC
 ```
+
+### Escrevendo para fixar
+
+Esse post veio de bug de tive em um projeto, portanto achei válido escrever para fixar na mente o que aconteceu e lembrar mais facilmente depois.

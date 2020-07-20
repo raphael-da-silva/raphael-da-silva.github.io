@@ -25,4 +25,6 @@ $app->add(function(Request $request, Response $response, callable $next){
 
 ```
 
-Quando a aplicação ser executada, será impresso ```Segundo``` e ```Primeiro``` respectivamente, isso acontece porque o primeiro middleware a ser adicionado é o último a ser executado, ou seja, os middlewares adicionados primeiro são executados por último e os adicionados por último são os primeiros a serem executados.
+Quando a aplicação ser executada, será impresso `Segundo` e `Primeiro` respectivamente, isso acontece porque o primeiro middleware a ser adicionado é o último a ser executado, ou seja, os middlewares adicionados primeiro são executados por último e os adicionados por último são os primeiros a serem executados.
+
+Esse post surgiu depois de uma confusão que eu tive com o funcionamento das rotas do slim 3, pois antes de saber desse conceito, o funcionamento não foi nada intuitivo para mim.

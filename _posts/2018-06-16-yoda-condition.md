@@ -4,7 +4,7 @@ title: Codificação - Condição invertida (a.k.a Yoda Condition)
 date: 2018-06-16 00:00
 ---
 
-Em alguns projetos open-source eu sempre via as condições nos ```ifs``` serem declaradas de forma invertida. Isso era algo que me gerava dúvida e curiosidade. Basicamente, em vez do valor comparado estar depois da variável, em vários projetos grandes ele vinha antes dela, ou seja, a posição era invertida. 
+Em alguns projetos open-source eu sempre via as condições nos `ifs` serem declaradas de forma invertida. Isso era algo que me gerava dúvida e curiosidade. Basicamente, em vez do valor comparado estar depois da variável, em vários projetos grandes ele vinha antes dela, ou seja, a posição era invertida. 
 
 ```php
 if($name === "User"){

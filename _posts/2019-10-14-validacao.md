@@ -13,4 +13,6 @@ A validação no back-end é mais segura e garantida, pois a ela não pode ser d
 
 Já na validação com Javascript no lado do front-end, a interação é melhor para o usuário, pois a página não precisa ser carregada a cada tentativa de requisição. No entanto, ela pode ser desabilitada e a aplicação pode ficar vunerável.
 
-A validação de dados do usuário (input) pode (e deve) ser feita no back-end (com a linguagem no lado do servidor) ou no front-end (com Javascript). O ideal é que sejam feitas em ambas, pois cada uma oferece diferentes vantagems e desvantagens e, por isso, uma acaba complementando a outra.
+A validação de dados do usuário (input) pode (e deve) ser feita no back-end (com a linguagem no lado do servidor) ou no front-end (com Javascript). O ideal é que sejam feitas em ambas, pois cada uma oferece diferentes vantagens e desvantagens e, por isso, uma acaba complementando a outra. 
+
+No fim das contas, uma validação (no back-end) é melhor para segurança e a outra validação (no front-end) é melhor para o o usuário. Agora que entendo melhor a importância da validação no back-end vou tentar melhorar, apesar de não gostar muito de fazer formulários e validações.

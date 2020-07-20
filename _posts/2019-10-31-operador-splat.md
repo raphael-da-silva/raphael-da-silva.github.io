@@ -3,7 +3,7 @@ layout: post
 title: PHP - O operador splat (a.k.a os três pontos...)
 ---
 
-O operador splat é um operador formado por três pontos ```...``` utilizado para trabalhar com funções variádicas. Esse tipo de função pode receber um número ilimitado de parâmetros. A função a seguir serve para ilustrar esse recurso que está presente desde a versão 5.6 do PHP.
+O operador splat é um operador formado por três pontos `...` utilizado para trabalhar com funções variádicas. Esse tipo de função pode receber um número ilimitado de parâmetros. A função a seguir serve para ilustrar esse recurso que está presente desde a versão 5.6 do PHP.
 
 ```php
 
