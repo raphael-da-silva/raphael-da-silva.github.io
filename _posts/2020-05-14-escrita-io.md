@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reflexão - A escrita como input e output
+title: Escrita - A escrita como input e output
 ---
 
 O meu processo estudos começou a ser acompanhado com a escrita a partir de março de 2015 quando criei um arquivo para ir escrevendo sobre os conceitos que eu estudava com as minhas palavras e com exemplos concretos que faziam eu captar melhor o propósito e aplicação dos conceitos.
