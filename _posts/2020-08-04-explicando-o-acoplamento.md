@@ -74,7 +74,7 @@ class Pessoa
     public function viver()
     {
 
-        $this=>sentimento->ativar();
+        $this->sentimento->ativar();
 
     }
 
