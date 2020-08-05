@@ -83,7 +83,7 @@ class Pessoa
 
 Agora a pessoa pode ter qualquer sentimento, inclusive os bons. Isso elimina a sua dependência com sentimentos específicos, inclusive os ruins. Sem flexibilidade uma pessoa sofre, pois ficar preso a sentimentos pode ser muito destrutivo. 
 
-Essa analogia entre acoplamento e flexibilidade mental foi uma forma que encontrei de explicar sobre acoplamento e flexiblidade no código através de experiências através de experiências que tive. Para acabar com a inconformação de vez, será criada uma nova classe, agora representando um sentimento positivo. 
+Essa analogia entre acoplamento e flexibilidade mental foi uma forma que encontrei de explicar sobre acoplamento e flexiblidade no código através de experiências que tive. Para acabar com a inconformação de vez, será criada uma nova classe, agora representando um sentimento positivo. 
 
 ```php
 
