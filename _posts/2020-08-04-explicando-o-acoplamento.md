@@ -24,9 +24,9 @@ class Pessoa
 }
 ```
 
-No método `viver` existe um acoplamento com a classe `Inconformacao`, essa classe representa um sentimento. Uma pessoa inconformada vai sofrer muito, pois nunca via deixar para trás o que aconteceu de ruim com ela. Ficar preso a esse sofrimento é algo massacrante.
+No método `viver` existe um acoplamento com a classe `Inconformacao`, essa classe representa um sentimento. Uma pessoa inconformada vai sofrer muito, pois nunca vai deixar para trás o que aconteceu de ruim com ela. Ficar preso a esse sofrimento é algo massacrante.
 
-Para resolver isso, é precisa se desapegar da informação, trazudindo isso para o código signigica que a classe `Pessoa` não pode ficar presa (acoplada) a classe `Inconformacao`. Para fazer isso na prática, é precivo passá-la como parâmetro (com injeção de dependência) através de uma abstração para possibilitar a troca de implementações.
+Para resolver isso, é precisa se desapegar da informação, traduzindo isso para o código significa que a classe `Pessoa` não pode ficar presa (acoplada) a classe `Inconformacao`. Para fazer isso na prática, é preciso passá-la como parâmetro (com injeção de dependência) através de uma abstração para possibilitar a troca de implementações.
 
 A abstração será feita através de uma interface, ela vai representar um sentimento, não importando qual sentimento seja. Segue a interface e a classe `Inconformacao` implementamdo essa nova interface criada.
 
@@ -46,7 +46,7 @@ class Inconformacao implements Sentimento
     public function ativar()
     {
 
-        echo 'A inconformação será levada para todo lugar e vair atrapalhar.';
+        echo 'A inconformação será levada para todo lugar e vai atrapalhar.';
 
     }
 
