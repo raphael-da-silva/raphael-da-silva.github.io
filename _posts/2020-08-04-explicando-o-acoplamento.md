@@ -1,6 +1,6 @@
 ---
 layout: post
-title: POO - Explicando acoplamento com sofrimento mental
+title: POO - Explicando acoplamento com sentimentos
 ---
 
 Flexibilidade mental é essencial para não ficar preso a pensamentos e comportamentos que levam ao sofrimento. Eu sofri muito mentalmente por ficar preso por uma inflexibilidade mental que me prejudicou ao lidar com a realidade e me adaptar a vida.
