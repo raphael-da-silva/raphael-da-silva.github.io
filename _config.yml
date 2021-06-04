@@ -3,7 +3,7 @@
 name: Raphael da Silva
 
 # Short bio or description (displayed in the header)
-description: Escritor (de código e uns posts)
+description: <?php escrever(); ?>
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 # avatar: 
@@ -15,7 +15,7 @@ description: Escritor (de código e uns posts)
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: raphael-dasilva@outlook.com
   facebook:
   flickr:
   github: raphael-da-silva
