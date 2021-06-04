@@ -40,7 +40,7 @@ class CapitaoAmerica implements Vingador
     public function avante()
     {
 
-        return 'Jogar o escudo';
+        return 'Jogar o escudo e falar frases de efeito.';
 
     }
 
@@ -64,7 +64,7 @@ class HomemFormiga implements Vingador
     public function avante()
     {
 
-        return 'Encolher com a tecnologia do Hank Pym.';
+        return 'Encolher com a tecnologia do Hank Pym e fazer graça.';
 
     }
 
@@ -76,7 +76,19 @@ class DoutorEstranho implements Vingador
     public function avante()
     {
 
-        return 'Projetar magia do plano astral.';
+        return 'Projetar magia do plano astral e parecer foda.';
+
+    }
+
+}
+
+class ViuvaNegra implements Vingador
+{
+
+    public function avante()
+    {
+
+        return 'Dar porrada e usar gadgets.';
 
     }
 
@@ -131,10 +143,11 @@ $vingadores = new Vingadores(
     new CapitaoAmerica,
     new PanteraNegra,
     new HomemFormiga,
-    new DoutorEstranho
+    new DoutorEstranho,
+    new ViuvaNegra
 );
 
 $vingadores->avanteVingadores();
 ```
 
-Agora todos os hérois em formação podem ir avante!
+Agora todos os hérois em formação podem ir avante...
