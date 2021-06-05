@@ -1,4 +1,7 @@
-# Buscando definir a responsabilidade de um objeto
+---
+layout: post
+title: Buscando definir a responsabilidade de um objeto
+---
 
 Os objetos de uma aplicação são melhores quando têm uma responsabilidade bem definida, pois isso facilita o entendimento do código e a sua manutenção. Objetos menores e coesos também são mais fáceis de combinar com outros para realizar novas funcionalidades, além de serem mais fáceis de utilizar em contextos diferentes, pois focam em uma funcionalidade só (sendo mais granulares).
 

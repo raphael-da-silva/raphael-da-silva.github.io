@@ -1,4 +1,7 @@
-# Kit de termos: alguns conceitos para construir objetos
+---
+layout: post
+title: Kit de termos - alguns conceitos para construir objetos
+---
 
 Todos os termos que serão definidos neste texto são parte do vocábulário usado para construir objetos e seus relacionamentos. Cada um deles serão abordados para que estejam bem contextualizados ao longo da leitura.
 
