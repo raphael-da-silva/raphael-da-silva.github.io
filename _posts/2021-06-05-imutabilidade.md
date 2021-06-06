@@ -56,7 +56,7 @@ class InfoArquivo
 
     }
 
-    public function obterInformacoes()
+    public function obterInformacoes(): array
     {
 
         return pathinfo($this->arquivo);
@@ -100,11 +100,11 @@ class InfoArquivo
 
     }
 
-    public function obterInformacoes()
+    public function obterInformacoes(): array
     {
 
         if(is_null($this->arquivo)){
-            throw new Exception('Arquivo é necessário.');
+            throw new Exception('Arquivo é necessário, use o método setter.');
         }
 
         return pathinfo($this->arquivo);
@@ -139,7 +139,7 @@ class InfoArquivo
 
     }
 
-    public function obterInformacoes()
+    public function obterInformacoes(): array
     {
 
         return pathinfo($this->arquivo);

@@ -68,3 +68,7 @@ class MensagemUsuario
 Após a aplicação do Early return não é mais necessário uma estrutura condicional de desvio (nesse caso o else) para fazer que o código seja executado em somente alguns casos, já que a parada da execução com o ```return``` já faz que o código seja executado em somente alguns casos.
 
 A legibilidade obtida com a prática de Early return faz com que a manutenção do software seja mais fácil, já que uma estrutura condicional simples é mais fácil de entender e, consequentemente, mais fácil de manter.
+
+### Tradução do termo que dá nome a prática
+
+Uma tradução simples e literal do termo "early return" é "retorno antecipado", o que deixa bem óbvio e exposto qual o propósito da prática. Acho válido expor a tradução, mesmo que soe óbvio para muitos, as vezes expor a linguagem em níveis básicos ajuda a compreender os conceitos, foi assim que consegui aprender o que não era óbvio para mim quando comecei a tentar entender conceitos mais complexos da programação.

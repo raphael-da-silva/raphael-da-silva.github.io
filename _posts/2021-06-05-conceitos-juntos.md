@@ -21,6 +21,6 @@ Por exemplo, um objeto que envia um e-mail e também salva um cadastro no banco 
 
 Um objeto pode ser considerado coeso quando ele que tem operações que estão focadas em compor uma determinada responsabilidade, não misturando conceitos que não estão ligados. Coesão é um termo que está bastante ligado a ideia de responsabilidade única, já que através dela algo pode ser considerado coeso.
 
-### Juntando tudo
+### Juntando tudo (refatorando rumo a granularidade e coesão)
 
 Objetos com grandes responsabilidades podem ser quebrados em partes para terem mais granularidade e focarem em responsabilidades mais bem definidas, o que gera coesao. Já no relacionamento desses objetos entra a composição, que se dá muitas vezes injetando as dependências e fazendo todas essas responsabilidades mais coesas se unirem e formarem um todo dentro da troca de mensagens dos objetos.

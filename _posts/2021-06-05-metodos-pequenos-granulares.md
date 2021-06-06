@@ -3,7 +3,9 @@ layout: post
 title: Métodos pequenos para separar as responsabilidades
 ---
 
-Separar o código de uma classe em vários métodos pequenos é algo que melhora o código, pois com essa separação a complexidade reduzida, já que cada método criado faz parte do objetivo da classe e, com isso, a compreensão da tarefa principal da classe fica mais fácil porque está divida em passos diferentes. Criar pequenos métodos possibilita dividir a tarefa de um objeto em partes menores (que são granulares) e de menos complexidade.
+Separar o código de uma classe em vários métodos pequenos é algo que melhora o código, pois com essa separação a complexidade reduzida, já que cada método criado faz parte do objetivo da classe e, com isso, a compreensão da tarefa principal da classe fica mais fácil porque está divida em passos diferentes. 
+
+Criar pequenos métodos possibilita dividir a tarefa de um objeto em partes menores (que são granulares) e de menos complexidade. É uma divisão da complexidade em estruturas menores e, portanto, mais simples de compreender.
 
 ## Separando uma classe em métodos menores na prática
 
@@ -23,14 +25,14 @@ class LeitorArquivoJson
 
     private $arquivo;
 
-    public function __construct($arquivo)
+    public function __construct(string $arquivo)
     {
 
         $this->arquivo = $arquivo;
 
     }
 
-    public function ler()
+    public function ler(): array
     {
 
         if(!file_exists($this->arquivo)){
@@ -67,14 +69,14 @@ class LeitorArquivoJson
 
     private $arquivo;
 
-    public function __construct($arquivo)
+    public function __construct(string $arquivo)
     {
 
         $this->arquivo = $arquivo;
 
     }
 
-    private function checarSeArquivoExiste()
+    private function checarSeArquivoExiste(): void
     {
 
         if(!file_exists($this->arquivo)){
@@ -83,7 +85,7 @@ class LeitorArquivoJson
 
     }
 
-    private function checarFormatoDoArquivo()
+    private function checarFormatoDoArquivo(): void
     {
 
         if(pathinfo($this->arquivo, PATHINFO_EXTENSION) !== 'json'){
@@ -92,7 +94,7 @@ class LeitorArquivoJson
 
     }
 
-    private function lerConteudoJson()
+    private function lerConteudoJson(): array
     {
 
         $conteudoJson = file_get_contents($this->arquivo);
@@ -102,7 +104,7 @@ class LeitorArquivoJson
 
     }
 
-    public function ler()
+    public function ler(): array
     {
 
         $this->checarSeArquivoExiste();
@@ -118,6 +120,6 @@ Com a criação de novos métodos a classe fica mais separada e organizada, já 
 
 ### Mais algumas vantagens
 
-Aplicar essa separação através de pequenos métodos também facilita a reusabilidade através dos pequenos métodos extraídos, pois o código extraído para um método pode ser reaproveitado em outros pontos da classe caso surja a necessidade. 
+Aplicar essa separação através de pequenos métodos também facilita a reusabilidade através dos pequenos métodos extraídos, pois o código extraído para um método pode ser reaproveitado em outros pontos da classe caso surja a necessidade.
 
-Além do benefício da reusabilidade, a legibilidade da classe também aumenta, já que uma lógica fragmentada em partes que são mais fáceis de entender do que um grande método onde tarefas se misturam.
+Além do benefício da reusabilidade, a legibilidade da classe também aumenta, já que uma lógica fragmentada em partes que são mais fáceis de entender do que um grande método onde tarefas se misturam. Essa prática é chamada de **compose method** e costuma aparecer quando o assunto é refatoração.
