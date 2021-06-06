@@ -13,12 +13,6 @@ Refatoração é o processo de modificar um código para melhorá-lo sem modific
 
 Granularidade é o termo utilizado para definir o quanto um software é separado em partes pequenas, quanto maior a granularidade maior a separação e quanto menor a granularidade, menor é a separação do código em partes menores. Quando mais granularidade ter o código, mais separado serão as suas responsabilidades, consequentemente mais coesão é obtidas.
 
-### Acoplamento
-
-O acoplamento é o grau de ligação que uma classe tem com outra, o acoplamento acontece quando classes são engessadas de uma forma que prejudica a flexibilidade do software e limita muito as mudanças. Basicamente, o acoplamento é o termo utilizado para definir o quanto um componente de um software está preso ao outro.
-
-Manter o acoplamento baixo é essencial para um software orientado a objetos, pois isso possibilita flexibilidade nas mudanças e melhora a manutenção do software. Justamente pelo acoplamento limitar as coisas, uma das ideias mais difundidas dentro da orientação a objetos é ter um baixo acoplamento.
-
 ### Coesão
 
 Quando se trata de objetos, o conceito de coesão é utilizado para definir o quanto as operações presentes em um objeto estão relacionadas umas com as outras. Algo é coeso quando faz exatamente o que se propõe sem ir além disso.
