@@ -26,6 +26,12 @@ No cenário onde um objeto envia um e-mail e registra um log dessa operação, p
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de separação de responsabilidades.
+ * @author Raphael da Silva
+ *
+ */
 class RegistroDeUsuario
 {
 
@@ -81,6 +87,12 @@ Decompondo o código da classe mostrada, as responsabilidades extras seriam sepa
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de separação de responsabilidades.
+ * @author Raphael da Silva
+ *
+ */
 class DadosUsuario
 {
 
@@ -116,6 +128,12 @@ A segunda é responsável por fazer o log de uma mensagem em um arquivo.
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de separação de responsabilidades.
+ * @author Raphael da Silva
+ *
+ */
 class GeradorDeLog
 {
 
@@ -145,6 +163,12 @@ Após a criação das novas classes, a classe```RegistroDeUsuario``` que antes c
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de separação de responsabilidades.
+ * @author Raphael da Silva
+ *
+ */
 class RegistroDeUsuario
 {
 

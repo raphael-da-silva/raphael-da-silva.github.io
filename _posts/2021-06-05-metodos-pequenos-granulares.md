@@ -12,6 +12,12 @@ No exemplo a seguir, a classe ```LeitorArquivoJson``` lê o conteúdo de um arqu
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de aplicação de métodos pequenos na refatoração.
+ * @author Raphael da Silva
+ *
+ */
 class LeitorArquivoJson
 {
 
@@ -50,6 +56,12 @@ Para aplicar a separação no exemplo em questão, é necessário extrair essas 
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de aplicação de métodos pequenos na refatoração.
+ * @author Raphael da Silva
+ *
+ */
 class LeitorArquivoJson
 {
 

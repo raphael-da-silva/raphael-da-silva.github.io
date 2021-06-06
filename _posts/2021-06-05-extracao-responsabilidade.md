@@ -14,17 +14,23 @@ Por exemplo, caso tenha uma classe que filtre e-mails válidos e que valide um e
 ```php
 <?php
 
+/**
+ *
+ * Exemplo extração de responsabilidades
+ * @author Raphael da Silva
+ *
+ */
 class FiltroDeEmails
 {
 
-    private function validarEmail($email)
+    private function validarEmail($email): bool
     {
 
         return (!empty($email) and filter_var($email, FILTER_VALIDATE_EMAIL));
 
     }
 
-    public function extrairEmailsValidos(array $emails)
+    public function extrairEmailsValidos(array $emails): array
     {
 
         $validos = [];
@@ -48,10 +54,16 @@ Ao aplicar a extração, a validação de e-mail irá ser extraída para uma cla
 ```php
 <?php
 
+/**
+ *
+ * Exemplo extração de responsabilidades
+ * @author Raphael da Silva
+ *
+ */
 class ValidadorEmail
 {
 
-    public function validar($email)
+    public function validar($email): bool
     {
 
         return (!empty($email) and filter_var($email, FILTER_VALIDATE_EMAIL));
@@ -67,6 +79,12 @@ Depois de criar a nova classe, é preciso passá-la para a classe ```FiltroDeEma
 ```php
 <?php
 
+/**
+ *
+ * Exemplo extração de responsabilidades
+ * @author Raphael da Silva
+ *
+ */
 class FiltroDeEmails
 {
 
@@ -80,7 +98,7 @@ class FiltroDeEmails
 
     }
 
-    public function extrairEmailsValidos(array $emails)
+    public function extrairEmailsValidos(array $emails): array
     {
 
         $validos = [];

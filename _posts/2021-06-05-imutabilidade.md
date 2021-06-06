@@ -38,12 +38,18 @@ O exemplo a seguir apresenta a classe ```InfoArquivo``` que é mutável, a funci
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de aplicação de imutabilidade.
+ * @author Raphael da Silva
+ *
+ */
 class InfoArquivo
 {
 
     private $arquivo;
 
-    public function setarArquivo($arquivo)
+    public function setarArquivo(string $arquivo)
     {
 
         $this->arquivo = $arquivo;
@@ -76,12 +82,18 @@ A forma como a classe está sendo utilizada não é adequada e não garante o se
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de aplicação de imutabilidade.
+ * @author Raphael da Silva
+ *
+ */
 class InfoArquivo
 {
 
     private $arquivo;
 
-    public function setarArquivo($arquivo)
+    public function setarArquivo(string $arquivo)
     {
 
         $this->arquivo = $arquivo;
@@ -109,12 +121,18 @@ Para que não seja necessária a adição de uma validação nesse caso, é nece
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de aplicação de imutabilidade.
+ * @author Raphael da Silva
+ *
+ */
 class InfoArquivo
 {
 
     private $arquivo;
 
-    public function __construct($arquivo)
+    public function __construct(string $arquivo)
     {
 
         $this->arquivo = $arquivo;

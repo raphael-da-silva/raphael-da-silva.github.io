@@ -12,10 +12,16 @@ Sem a aplicação dessa técnica as condições possuem desvios condicionais (el
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de aplicação do early return.
+ * @author Raphael da Silva
+ *
+ */
 class MensagemUsuario
 {
 
-    public function definirMensagem($nome = null)
+    public function definirMensagem($nome = null): string
     {
 
         if(!is_null($nome)){
@@ -31,15 +37,21 @@ class MensagemUsuario
 }
 ```
 
-Para aplicar o Early return no código, é necessário retornar antecipadamente, pois assim o retorno finaliza a execução. Ao aplicar o Early return a implementação ficaria da seguinte maneira:
+Para aplicar o Early return no código, é necessário retornar antecipadamente (ou seja early), pois assim o retorno finaliza a execução. Ao aplicar o Early return a implementação ficaria da seguinte maneira:
 
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de aplicação do early return.
+ * @author Raphael da Silva
+ *
+ */
 class MensagemUsuario
 {
 
-    public function definirMensagem($nome = null)
+    public function definirMensagem($nome = null): string
     {
 
         if(!is_null($nome)){

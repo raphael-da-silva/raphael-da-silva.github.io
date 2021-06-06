@@ -18,6 +18,12 @@ A classe ```MensagemDeSaudacao``` a seguir serve como exemplo para o uso da tipa
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de tipagem de retorno no PHP>=7
+ * @author Raphael da Silva
+ *
+ */
 class MensagemDeSaudacao
 {
 
@@ -36,6 +42,12 @@ O exemplo também mostra a definição de tipos escalares no tipo do parâmetro 
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de tipagem de retorno no PHP>=7
+ * @author Raphael da Silva
+ *
+ */
 class MensagemDeSaudacao
 {
 
