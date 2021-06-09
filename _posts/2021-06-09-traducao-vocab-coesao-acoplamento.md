@@ -11,7 +11,7 @@ Por exemplo, [um objeto feito para salvar um cadastro no banco de dados e també
 
 Na minha visão, a frase "alta coesão e baixo acoplamento" usa palavras rebuscadas e complexas que não ajudam muito os iniciantes. Talvez se a frase "Alta coesão e baixo acoplamento" fosse traduzida por "Objetos flexíveis e com responsabilidades limitadas" as coisas seriam mais intuitivas logo de início. 
 
-Ou melhor, se a frase fosse substituida por "use abstrações como parâmetros e mantenha só uma responsabilidade" tudo ficaria ainda mais evidente. 
+Ou melhor, se a frase fosse traduzida por "use abstrações como parâmetros e mantenha só uma responsabilidade" tudo ficaria ainda mais evidente. 
 
 ### O papel da linguagem (não a de programação)
 
