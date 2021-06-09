@@ -21,3 +21,9 @@ A vantagem da factory estática destacada na citação é a legibilidade, pois e
 Um exemplo desse tipo uso de factories é para criar objetos simples como entidades (aka entity) e value objects. Esses objetos não vão precisar ser injetados, pois não são dependências, mas sim representações das regras de negócio. Portanto, podem eles ser criados através uma factory com código estático sem que isso seja um problema de acoplamento alto que tira a flexibilidade do código (e que precisará ser trocado). 
 
 Esse foi um valor para o código estático que só percebi depois de entender o valor desses objetos simples (entidades e value objects) quanto tentei estudar sobre o básico de DDD e separação de camadas. Foi começar a usar esses objetos para dar contexto e legibilidade para as regras de negócio que o uso desse tipo de factory deu ainda mais contexto e legibilidade para tudo.
+
+### 💀💀💀 Case closed: é isso... 💀💀💀
+
+Gosto muito do grupo de Rap Cypress Hill (💀💀💀), existe uma música deles Chamada "Case Closed", que traduzindo significa "Caso Encerrado". Referenciei o nome dessa música para encerrar esse artigo. Caso encerrado (aka Case Closed)!!!!
+
+![cypress cover](https://i.scdn.co/image/ab67616d0000b2734e51c518e787896bc8cdb1a5)

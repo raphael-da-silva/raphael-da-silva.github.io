@@ -19,8 +19,8 @@ O propósito desse artigo foi fazer essa simplificação didática que evita o u
 
 A linguagem rebuscada e complexa dos termos do paradigma foi uma barreiraque encontrei no começo, ou seja, a barreira não foi a linguagem da programação, mas sim a linguagem usada entre programadores no seu vocabulário.
 
-### ☠☠☠ Case closed: é isso... ☠☠☠
+### 💀💀💀 Case closed: é isso... 💀💀💀
 
-Gosto muito do grupo de Rap Cypress Hill, existe uma música deles Chamada "Case Closed", que traduzindo significa "Caso Encerrado". Referenciei o nome dessa música para encerrar esse artigo. Caso encerrado (aka Case Closed)!!!!
+Gosto muito do grupo de Rap Cypress Hill (💀💀💀), existe uma música deles Chamada "Case Closed", que traduzindo significa "Caso Encerrado". Referenciei o nome dessa música para encerrar esse artigo. Caso encerrado (aka Case Closed)!!!!
 
 ![cypress cover](https://i.scdn.co/image/ab67616d0000b2734e51c518e787896bc8cdb1a5)
