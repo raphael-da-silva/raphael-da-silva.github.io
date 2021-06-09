@@ -17,6 +17,14 @@ O autor Joshua Block sintetiza isso de forma muito eficiente no seu livro _Effec
 
 A ferramenta que mais gosto são as interfaces, mas é válido lembrar das classes abstratas como mais uma ferramenta disponível na criação e representação de abstrações e a construção de um código mais flexível (variando essas implementações). Quanto mais ferramentas, mais opções dá para ter na manga. Uma coisa não exclui a outra.
 
+### Código abstrato vs. Implementação: o que cada um abrange
+
+Depender de um código mais abstrato, como é feito com o uso de interfaces ou classes abstratas, possibilita que uma implementação dessa dessa interface/classe abstrata seja trocada por outra implementação diferente, sendo essa a principal vantagem de trabalhar a relação dos objetos dependendo de abstrações.
+
+Já depender de uma implementação é algo mais limitado conceitualmente e tecnicamente, já que a implementação se limita a algo mais específico (conceitualmente menos abrangente) que faz algo na prática mais específico (tecnicamente). Por exemplo, uma abstração poderia definir a leitura de um arquivo de forma bem ampla, enquanto uma impleementação poderia ser uma leitura de arquivo em JSON, que é uma leitura bem mais restrita, já que está limitada a um formato de arquivo específico (no caso JSON).
+
+Resumidamente, o código concreto (ou seja, a implementação) está restringido a trabalhar com os detalhes específicos que ele aborda, logo se torna uma opção mais limitada e, consequentemente, menos flexível. Já a abstração é o contrário, já é mais ampla, logo dá mais opções e, consequentemente, mais liberdade para operar dentro desse leque mais amplo de possibilidades.
+
 ### Referências
 
 * BLOCH, Joshua. Effective Java: Second Edition. Edição 2.
