@@ -21,7 +21,7 @@ A linguagem rebuscada e complexa dos termos do paradigma foi uma barreiraque enc
 
 ***
 
-### 💀💀💀 case closed: é isso... 💀💀💀
+### 💀💀💀 Case Closed: é isso... 💀💀💀
 
 Gosto muito do grupo de Rap Cypress Hill (💀💀💀), existe uma música deles chamada "Case Closed", que traduzindo significa "Caso Encerrado". Referenciei o nome dessa música para encerrar esse artigo. 
 

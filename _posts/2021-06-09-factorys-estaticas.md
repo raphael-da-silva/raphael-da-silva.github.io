@@ -24,7 +24,7 @@ Esse foi um valor para o código estático que só percebi depois de entender o 
 
 ***
 
-### 💀💀💀 case closed: é isso... 💀💀💀
+### 💀💀💀 Case Cosed: é isso... 💀💀💀
 
 Gosto muito do grupo de Rap Cypress Hill (💀💀💀), existe uma música deles chamada "Case Closed", que traduzindo significa "Caso Encerrado". Referenciei o nome dessa música para encerrar esse artigo. 
 
