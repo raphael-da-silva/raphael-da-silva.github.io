@@ -39,7 +39,7 @@ $container['BuscaDeProdutos'] = function($container){
 
 };
 
-$container['ImpressaoDeProdutos'] ($container){
+$container['ImpressaoDeProdutos'] = function($container){
 
     return new ImpressaoDeProdutos(
         $container['BuscaDeProdutos']
