@@ -22,6 +22,8 @@ Um exemplo desse tipo uso de factories é para criar objetos simples como entida
 
 Esse foi um valor para o código estático que só percebi depois de entender o valor desses objetos simples (entidades e value objects) quanto tentei estudar sobre o básico de DDD e separação de camadas. Foi começar a usar esses objetos para dar contexto e legibilidade para as regras de negócio que o uso desse tipo de factory deu ainda mais contexto e legibilidade para tudo.
 
+***
+
 ### 💀💀💀 case closed: é isso... 💀💀💀
 
 Gosto muito do grupo de Rap Cypress Hill (💀💀💀), existe uma música deles chamada "Case Closed", que traduzindo significa "Caso Encerrado". Referenciei o nome dessa música para encerrar esse artigo. 
