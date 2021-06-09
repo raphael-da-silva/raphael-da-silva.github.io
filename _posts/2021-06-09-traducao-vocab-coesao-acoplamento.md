@@ -7,7 +7,7 @@ Quando tive os primeiros contatos com a Orientação a Objetos, eu ouvia a frase
 
 O conceito de coesão é utilizado para definir o quanto as operações presentes em um objeto estão relacionadas umas com as outras. Basicamente, um objeto é coeso quando faz exatamente o que se propõe, sem ir além disso. Ou seja, é quando ele que possui operações que estão focadas em compor uma determinada responsabilidade, sem misturar conceitos que não estão relacionados entre si.
 
-Por exemplo, um objeto feito para salvar um cadastro no banco de dados e também gerar mensagens de log não é coeso, pois a responsabilidade de gerar uma mensagem de log não deveria estar nele. Para que esse objeto fosse coeso, ele deveria ter somente métodos relacionados ao cadastro no banco de dados e os detalhes necessários para realizar esse tipo de operação. Já o log deveria ter uma classe própria para ele.
+Por exemplo, [um objeto feito para salvar um cadastro no banco de dados e também gerar mensagens de log não é coeso, pois a responsabilidade de gerar uma mensagem de log não deveria estar nele.](https://raphael-da-silva.github.io/responsabidade-coesa/) Para que esse objeto fosse coeso, ele deveria ter somente métodos relacionados ao cadastro no banco de dados e os detalhes necessários para realizar esse tipo de operação. Já o log deveria ter uma classe própria para ele.
 
 Na minha visão, a frase "alta coesão e baixo acoplamento" usa palavras rebuscadas e complexas que não ajudam muito os iniciantes. Talvez se a frase "Alta coesão e baixo acoplamento" fosse traduzida por "Objetos flexíveis e com responsabilidades limitadas" as coisas seriam mais intuitivas logo de início. 
 
