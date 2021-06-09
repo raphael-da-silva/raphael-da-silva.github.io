@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Estudo - Aprendizado no stackoverflow
+title: Resumo - Aprendizado no stackoverflow (catalogação mental)
 ---
 
 Seguem as coisas que aprendi no stackoverflow na parte técnica:

@@ -165,3 +165,7 @@ $informacoes = $arquivoInfo->getInfo();
 Em linguagens como C# existe a palavra reservada ```readonly```, ela serve para impedir que um atributo de um objeto seja modificado depois de inicializado, esse recurso é muito útil na criação de objetos imutáveis, já que faz a própria linguagem suportar o conceito e deixa bem claro a intenção do programador.
 
 No PHP esse tipo de recurso não existe até o momento eu escrevi esse artigo. Entretanto, não criar setters para atributos e só permitir a sua inicialização durante a construção do objeto são abordagens que ajudam a aplicar a imutabilidade dentro do PHP, mesmo que não exista um suporte completo na linguagem.
+
+### Referências
+
+* BLOCH, Joshua. Effective Java: Second Edition. Edição 2.
