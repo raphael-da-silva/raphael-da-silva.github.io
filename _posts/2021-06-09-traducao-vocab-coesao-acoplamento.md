@@ -3,7 +3,9 @@ layout: post
 title: A tal da alta coesão e baixo acoplamento
 ---
 
-Quando tive os primeiros contatos com a Orientação a Objetos, eu ouvia a frase "Alta coesão e baixo acoplamento" diversas vezes. O problema é que aquilo ficava vago, pois não era mostrado como obter essas vantagens. O foco deste livro foi o baixo acoplamento, porém antes de finalizar irei abordar a alta coesão é a contraparte dessa ideia tão difundida no paradigma. 
+Quando tive os primeiros contatos com a Orientação a Objetos, eu ouvia a frase "Alta coesão e baixo acoplamento" diversas vezes. O problema é que aquilo ficava vago, pois não era mostrado como obter essas vantagens. 
+
+O acoplamento é o grau de ligação entre classes, se o acoplamento for alto as classes são engessadas, logo estão limitadas. Para ter baixo acoplamento entra em jogo as abstrações possibilitando trocar as implementações entre objetos.
 
 O conceito de coesão é utilizado para definir o quanto as operações presentes em um objeto estão relacionadas umas com as outras. Basicamente, um objeto é coeso quando faz exatamente o que se propõe, sem ir além disso. Ou seja, é quando ele que possui operações que estão focadas em compor uma determinada responsabilidade, sem misturar conceitos que não estão relacionados entre si.
 
@@ -17,7 +19,7 @@ Ou melhor, se a frase fosse traduzida por "use abstrações como parâmetros e m
 
 O propósito desse artigo foi fazer essa simplificação didática que evita o uso desses termos complexos e pouco intuitivos para quem inicia a aventura de entender melhor a Orientação a Objetos. 
 
-A linguagem rebuscada e complexa dos termos do paradigma foi uma barreiraque encontrei no começo, ou seja, a barreira não foi a linguagem da programação, mas sim a linguagem usada entre programadores no seu vocabulário.
+A linguagem rebuscada e complexa dos termos do paradigma foi uma barreira que encontrei no começo, ou seja, a barreira não foi a linguagem da programação, mas sim a linguagem usada entre programadores no seu vocabulário.
 
 ***
 
