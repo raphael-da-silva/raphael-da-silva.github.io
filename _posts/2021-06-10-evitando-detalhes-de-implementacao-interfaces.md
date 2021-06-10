@@ -1,4 +1,7 @@
-# Evitando colocar detalhes em interfaces
+---
+layout: post
+title: Evitando colocar detalhes específicos em interfaces
+---
 
 Uma interface tem como objetivo expor operações (métodos) que farão parte de um objeto, além disso, ela possibilita a troca de funcionalidades de forma flexível no código através da criação de novas implementações.
 
