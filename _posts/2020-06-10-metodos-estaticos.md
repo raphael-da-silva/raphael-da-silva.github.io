@@ -14,6 +14,12 @@ Um lugar onde é possível ver essa situação são nas famosas classes de helpe
 ```php
 <?php
 
+/**
+ *
+ * Exemplo para ilustrar um uso errado de métodos estáticos.
+ * @author Raphael da Silva
+ *
+ */
 class Helpers
 {
 

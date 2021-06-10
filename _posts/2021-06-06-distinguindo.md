@@ -24,15 +24,22 @@ No PHP existe uma biblioteca chamada Pimple, essa biblioteca fornece uma classe 
 ```php
 <?php
 
+/**
+ *
+ * Uso do container para ilustrar a diferença entre conceitos.
+ * @author Raphael da Silva
+ *
+ */
 $container = new \Pimple\Container;
 
 /**
  *
  * Sobre a sintaxe do container:
- * O container pode ser acessado como um array porque ele implementa a interface ArrayAccess que é nativa do PHP e permite fazer isso.
+ * O container pode ser acessado como um array 
+ * porque ele implementa a interface ArrayAccess que 
+ * é nativa do PHP e permite fazer isso.
  *
  */
-
 $container['BuscaDeProdutos'] = function($container){
 
     return new BuscaDeProdutosDeJSON('produtos.json');

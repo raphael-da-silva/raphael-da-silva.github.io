@@ -12,6 +12,12 @@ No exemplo a seguir, a classe ```ProdutosDoBancoDeDados``` depende da PDO, ou se
 ```php
 <?php
 
+/**
+ *
+ * Exemplo para ilustrar a PDO como abstração.
+ * @author Raphael da Silva
+ *
+ */
 class ProdutosDoBancoDeDados
 {
 
