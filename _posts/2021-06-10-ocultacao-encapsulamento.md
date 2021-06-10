@@ -12,7 +12,9 @@ O encapsulamento consiste em proteger e evitar a exposição dos detalhes de imp
 Não sei se essa analogia é conhecida, mas a palavra encapsulamento remete a capsula, logo se acaba chegando nisso. Tanto que a palavra na língua portuguesa remete a isso, segue as definições de encapsular de acordo com o site www.dicio.com.br:
 
 > Circundar, rodear de uma cápsula.
+
 > Incluir ou proteger alguma coisa em uma cápsula.
+
 > Rodear a si mesmo com uma cápsula.
 
 O vocabulário e a linguagem (além da linguagem de programação) é algo que sempre busquei deixar bem nítido, logo remeter a palavra fora da programação é uma forma de trazer isso para a didática. Como é possível ver na definição do dicionário, encapsular remete a ideia de proteger e enconder as coisas dentro de algo. **Esconder** é uma palavra-chave aqui, pois algo escondido está **oculto**.
@@ -184,6 +186,6 @@ Um último adendo é que, além de respeitar o encapsulamento, o uso de métodos
 
 Gosto muito do grupo de Rap Cypress Hill (💀💀💀), existe uma música deles chamada "Case Closed", que traduzindo significa "Caso Encerrado". Referenciei o nome dessa música para encerrar esse artigo. 
 
-Caso encerrado (aka Case Closed)!!!! **No caso desse post sobre encapsulamento não é o caso que foi fechado, mas o escopo também... Fechado dentro de uma capsula com formato de caveira.** 💀💀💀
+Caso encerrado (aka Case Closed)!!!! **No caso desse post sobre encapsulamento não é só o caso que foi fechado, mas o escopo também... Fechado dentro de uma capsula com formato de caveira.** 💀💀💀
 
 ![cypress cover](https://i.scdn.co/image/ab67616d0000b2734e51c518e787896bc8cdb1a5)
