@@ -35,7 +35,7 @@ Ao evitar o acesso e a violação dos dados internos de um objeto, o encapsulame
 
 ## Ocultação de informação (aka Information Hiding)
 
-Ocultação de informação (Information Hiding) é um dos princípios essenciais da orientação a objetos, o seu objetivo é evitar o acoplamento e ter objetos mais isolados dentro de um software. 
+Ocultação de informação (Information Hiding) é um dos princípios essenciais da orientação a objetos, o seu objetivo é isolar os objetos de detalhes internos e dos efeitos que mudanças internas podem gerar fora do objeto (tendo objetos mais isolados dentro de um software).
 
 O propósito desse princípio é não revelar como um objeto faz algo, ou seja, detalhes de implementação não devem ser expostos na [comunicação entre objetos](https://raphael-da-silva.github.io/td-troca-de-mensagens/), pois **os objetos devem expor apenas o que fazem, mas não os detalhes do que fazem**. Isso é o que esse principio trata em essência.
 
@@ -89,15 +89,15 @@ Muitas vezes o encapsulamento é mostrado como sinônimo de modificadores de ace
 
 Assim como classes abstratas e interfaces são recursos usados para abstrair, os modificadores de acesso são recursos usados para encapsular, mas não significa que eles são uma garantia, para isso é preciso usá-los de forma efetiva.
 
-Um exemplo que mostra como os modificadores de acesso não garantem o encapsulamento são o uso de setters de atributo, onde o objeto cliente está modificando e acessando detalhes do objeto que ele utiliza, nesse caso o setter viola a proteção que o atributo privado deveria prover, já que seu uso acaba dando acesso a uma propriedade que foi "encapsulada" para não ser exposta, mas que indiretamente foi exposto ao poder ser acessada via o setter.
+Um exemplo que mostra como os modificadores de acesso não garantem o encapsulamento são o uso de setters de atributo, onde o objeto cliente está modificando e acessando detalhes do objeto que ele utiliza, nesse caso o setter viola a proteção que o atributo privado deveria prover, já que seu uso acaba dando acesso (e, consequentemente expondo) a uma propriedade que em teoria foi "encapsulada" para não ser exposta, mas que indiretamente foi exposta ao poder ser acessada via o setter (que acaba dando uma acesso indireto, mas que cria a ilusão de encapsulamento por conta por acesso não ser direto a propriedade).
 
-Os modificadores de acesso não são obrigatórios e também não são a garantia para se alcançar o encapsulamento, pois esse conceito também pode ser aplicado em linguagens que não possuem esses recursos nativamente, como no caso do Javascript que por muito tempo emulou o controle de visibilidade com outras características da linguagem como a [IIFE (Immediately Invoked Function Expression)](https://developer.mozilla.org/pt-BR/docs/Glossary/IIFE).
+Os modificadores de acesso não são obrigatórios e também não são a garantia para se alcançar o encapsulamento, pois esse conceito também pode ser aplicado em linguagens que não possuem esses recursos nativamente, como no caso do Javascript que por muito tempo emulou o controle de visibilidade e fechamento de escopo com características da linguagem como a [IIFE (Immediately Invoked Function Expression)](https://developer.mozilla.org/pt-BR/docs/Glossary/IIFE).
 
 ## Usando métodos privados para encapsular detalhes
 
-Métodos privados são úteis para manter o encapsulamento dentro do software, pois a restrição de um método que diz respeito só ao próprio objeto ao qual ele pertence, faz com que os clientes desse objeto não utilizem o método e, consequentemente, não se acoplem a ele, já que o mesmo é um detalhe de implementação e não deve ser conhecido pelos clientes.
+Métodos privados são úteis para manter o encapsulamento dentro do software, pois a restrição de um método que diz respeito só ao próprio objeto ao qual ele pertence, faz com que os clientes desse objeto não utilizem o método e, consequentemente, ele fica fechado e escondido/ocultado.
 
-Restringir o acesso aos detalhes faz com que os métodos privados evitem que os clientes conheçam partes de um objeto que não devem ser acessadas/utilizadas por eles, mantendo assim essas partes encapsuladas.
+Restringir o acesso aos detalhes com os métodos privados evita que os clientes conheçam partes de um objeto que não devem ser acessadas/utilizadas por eles, mantendo assim essas partes encapsuladas.
 
 No exemplo a seguir, o método ```checarFormatoDoArquivo``` está privado para evitar a exposição de uma parte do código que não é pertinente fora da classe ```LeitorDeArquivoJSON```, ou seja, restringir o acesso desse método é uma maneira de ocultar esse tipo de detalhe específico para outros objetos externos.
 
@@ -179,6 +179,7 @@ Um último adendo é que, além de respeitar o encapsulamento, o uso de métodos
 
 * HARMES, Ross; DIAZ, Dustin. Pro Javascript Design Patterns. Edição 1. USA: Apress, 2008.
 * [Significado da palavra encapsulamento no site dicio.com.br](https://www.dicio.com.br/encapsulamento/)
+* https://en.wikipedia.org/wiki/Information_hiding
 
 ***
 
