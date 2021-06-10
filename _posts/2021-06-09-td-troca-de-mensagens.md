@@ -13,7 +13,7 @@ No livro "Design Patterns: Elements of Reusable Object-Oriented Software" a rela
 > An object packages both data and the procedures that operate on that data. The procedures are typically called methods or operations. An object performs an operation when it receives a request (or message) from a client. 
 -->
 
-> Um objeto enpacota dados e procecimentos que operam nesses dados. Os procedimentos são tipicamente chamados de métodos ou operações. Um objeto performa a operação quando recebe uma requisição (ou messagem) vinda de um cliente. (GAMMA et al., 1994, p.24, tradução nossa)
+> Um objeto empacota dados e procecimentos que operam nesses dados. Os procedimentos são tipicamente chamados de métodos ou operações. Um objeto performa a operação quando recebe uma requisição (ou mensagem) vinda de um cliente. (GAMMA et al., 1994, p.24, tradução nossa)
 
 Nesse fluxo de relacionamentos dos objetos a citação termina mencionando o termo "cliente", que é o objeto que chama/executa um outro objeto para realizar uma operação, por requisitar o funcionamento de um outro objeto, o termo dado para o objeto requisitor é cliente. Esse é o fluxo e as partes que geram a troca de mensagem entre objetos.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A tal da alta coesão e baixo acoplamento
+title: A tal da alta coesão e baixo acoplamento (vocabulário + linguagem)
 ---
 
 Quando tive os primeiros contatos com a Orientação a Objetos, eu ouvia a frase "Alta coesão e baixo acoplamento" diversas vezes. O problema é que aquilo ficava vago, pois não era mostrado como obter essas vantagens. 

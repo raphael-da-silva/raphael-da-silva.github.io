@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Interfaces e classes abstratas
+title: "Interfaces + classes abstratas: recursos para criar abstrações"
 ---
 
 As linguagens de programação fornecem recursos para abstrair operações no paradigma de Orientação a Objetos, esses recursos são interfaces e classes abstratas. Com elas é possível representar a ideia (ou noção básica) de uma operação sem conter nenhuma implementação (no caso das interfaces) ou somente com implementações mais genéricas somadas a métodos abstratos sem nenhuma implementação (no caso das classes abstratas).
@@ -24,6 +24,10 @@ Depender de um código mais abstrato, como é feito com o uso de interfaces ou c
 Já depender de uma implementação é algo mais limitado conceitualmente e tecnicamente, já que a implementação se limita a algo mais específico (conceitualmente menos abrangente) que faz algo na prática mais específico (tecnicamente). Por exemplo, uma abstração poderia definir a leitura de um arquivo de forma bem ampla, enquanto uma impleementação poderia ser uma leitura de arquivo em JSON, que é uma leitura bem mais restrita, já que está limitada a um formato de arquivo específico (no caso JSON).
 
 Resumidamente, o código concreto (ou seja, a implementação) está restringido a trabalhar com os detalhes específicos que ele aborda, logo se torna uma opção mais limitada e, consequentemente, menos flexível. Já a abstração é o contrário, já é mais ampla, logo dá mais opções e, consequentemente, mais liberdade para operar dentro desse leque mais amplo de possibilidades.
+
+### Exceção da regra
+
+A `PDO` é uma classe que é uma abstração mesmo sendo uma classe concreta e não um desses recursos (aka construção de linguagem) para criar uma abstração (interface e classe abstrata). Com isso, ela é uma exceção curiosa, [escrevi sobre isso nesse post](https://raphael-da-silva.github.io/injecao-pdo/).
 
 ### Referências
 
