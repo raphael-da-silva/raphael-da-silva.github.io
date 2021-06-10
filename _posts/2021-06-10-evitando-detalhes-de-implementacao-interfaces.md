@@ -31,6 +31,12 @@ Uma interface pode conter detalhes através de parâmetros e isso traz limitaç�
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de como evitar detalhes em interfaces
+ * @author Raphael da Silva
+ *
+ */
 interface VerificadorDeUsuario
 {
 
@@ -49,6 +55,12 @@ Para melhorar o exemplo da interface em questão o segundo parâmetro deveria se
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de como evitar detalhes em interfaces
+ * @author Raphael da Silva
+ *
+ */
 interface VerificadorDeUsuario
 {
 
@@ -62,6 +74,12 @@ Informações como o nome da tabela poderiam ser passadas no construtor e, com i
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de como evitar detalhes em interfaces
+ * @author Raphael da Silva
+ *
+ */
 class VerificadorComBancoDeDados implements VerificadorDeUsuario
 {
 
@@ -123,6 +141,12 @@ Segue a interface que ilustra a situação em questão:
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de como evitar detalhes em interfaces
+ * @author Raphael da Silva
+ *
+ */
 interface LeitorDeArquivoDeConfiguracao
 {
 
@@ -134,7 +158,14 @@ interface LeitorDeArquivoDeConfiguracao
 O nome `lerJSON` dado para o método é ruim, pois revela detalhes que limitam a tudo a um formato de arquivo JSON. Obviamente, a limitação é conceitual e não técnica, portanto nada impede que na prática seja feito o seguinte:
 
 ```php
+<?php
 
+/**
+ *
+ * Exemplo de como evitar detalhes em interfaces
+ * @author Raphael da Silva
+ *
+ */
 class LeitorDeArquivoDeConfiguracaoIni implements LeitorDeArquivoDeConfiguracao
 {
 
@@ -157,10 +188,16 @@ Para melhorar a interface um nome que não revela detalhes deveria ser adotado, 
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de como evitar detalhes em interfaces
+ * @author Raphael da Silva
+ *
+ */
 interface LeitorDeArquivoDeConfiguracao
 {
 
-    public function lerArquivo(string $arquivo);
+    public function lerArquivo(string $arquivo): array;
 
 }
 ```
@@ -172,10 +209,16 @@ O exemplo que antes estava conceitualmente confuso, agora ficaria correto. Segue
 ```php
 <?php
 
+/**
+ *
+ * Exemplo de como evitar detalhes em interfaces
+ * @author Raphael da Silva
+ *
+ */
 class LeitorDeArquivoDeConfiguracaoIni implements LeitorDeArquivoDeConfiguracao
 {
 
-    public function lerArquivo(string $arquivo)
+    public function lerArquivo(string $arquivo): array
     {
 
         return parse_ini_file($arquivo);
