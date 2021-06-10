@@ -100,7 +100,7 @@ class VerificadorComBancoDeDados implements VerificadorDeUsuario
     {
 
         $stmt = $this->conexaoComPDO->prepare(
-            'SELECT * FROM usuarios WHERE Email = :email'  
+            'SELECT * FROM ' . $this->tabelaBancoDados . ' WHERE Email = :email'
         );
 
         $stmt->execute([
