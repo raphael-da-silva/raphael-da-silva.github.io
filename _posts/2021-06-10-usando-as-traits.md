@@ -108,7 +108,7 @@ class MensagemOlaMundo
 
     use DizerOlaTrait;
 
-    public function dizerOlaMundo()
+    public function dizerOlaMundo(): void
     {
 
         echo $this->dizerOla('Mundo');
@@ -134,7 +134,7 @@ class MensagemOla
 
     use DizerOlaTrait;
 
-    public function dizerOlaParaAlguem($nome)
+    public function dizerOlaParaAlguem($nome): void
     {
 
         echo $this->dizerOla($nome);

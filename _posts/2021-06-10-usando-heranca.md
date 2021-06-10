@@ -33,16 +33,16 @@ Por exemplo, uma classe que serve para dar acesso a um banco de dados ser herdad
 class RegistroDeUsuario extends PDO
 {
 
-    public function registrar($nome, $ano): void
+    public function registrar(string $nome, string $email): void
     {
 
-        $sql = 'INSERT INTO usuarios (nome, ano) 
-                VALUES (:nome, :ano)';
+        $sql = 'INSERT INTO usuarios (nome, email) 
+                VALUES (:nome, :email)';
 
         $stmt = parent::prepare($sql);
         $stmt->execute([
             ':nome' => $nome,
-            ':ano'  => $ano
+            ':email'=> $email
         ]);
 
     }
@@ -78,16 +78,16 @@ class RegistroDeUsuario
 
     }
 
-    public function registrar($nome, $ano): void
+    public function registrar(string $nome, string $email): void
     {
 
-        $sql  = 'INSERT INTO usuarios (nome, ano) 
-                VALUES (:nome, :ano)';
-                
+        $sql = 'INSERT INTO usuarios (nome, email) 
+                VALUES (:nome, :email)';
+
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute([
             ':nome' => $nome,
-            ':ano'  => $ano
+            ':email'=> $email
         ]);
 
     }
