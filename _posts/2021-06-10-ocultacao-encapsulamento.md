@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Encapsulamento: detalhes de objetos ocultados/escondidos na capsula da caveira...💀"
+title: "Encapsulamento: detalhes de objetos ocultados/escondidos e fechados na capsula"
 ---
 
 O encapsulamento é um conceito fundamental dentro da orientação a objetos, através dele objetos definem o que poderá ser acessado de dentro deles. Encapsular partes do código de um objeto é uma parte importante do paradigma, uma parte conceitual que deve ser protegida como se estivesse dentro de uma capsula...
