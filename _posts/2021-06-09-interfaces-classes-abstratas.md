@@ -27,7 +27,7 @@ Resumidamente, o código concreto (ou seja, a implementação) está restringido
 
 ### Sem focar em detalhes
 
-Os detalhes de uma implementação não são relevantes para esses recursos (interfaces + classes abstratas), pois algo abstrato não leva detalhes específicos em consideração e sim a essência de uma operação. O motivo crucial para não conter detalhes em abstrações é evitar que o código fique preso a uma determinada implementação e, consequentemente, não consiga variá-la/trocá-la depois.
+Os detalhes de uma implementação não são relevantes para esses recursos (interfaces + classes abstratas), pois algo abstrato não leva detalhes específicos em consideração e sim a essência de uma operação. O motivo crucial para [não conter detalhes em abstrações](https://raphael-da-silva.github.io/evitando-detalhes-de-implementacao-interfaces/) é evitar que o código fique preso a uma determinada implementação e, consequentemente, não consiga variá-la/trocá-la depois.
 
 Apesar da existência de classes abstratas e interfaces, uma abstração é algo que está em um nível muito mais conceitual que de código, portanto a aplicação dela não depende de construções de linguagem para ser aplicada. Abstrair é uma tarefa mental que não obriga o uso de um recurso da linguagem de programação para ser colocada em prática. A `PDO` é um exemplo disso.
 
