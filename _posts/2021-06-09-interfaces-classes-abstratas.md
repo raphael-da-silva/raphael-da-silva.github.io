@@ -25,6 +25,12 @@ Já depender de uma implementação é algo mais limitado conceitualmente e tecn
 
 Resumidamente, o código concreto (ou seja, a implementação) está restringido a trabalhar com os detalhes específicos que ele aborda, logo se torna uma opção mais limitada e, consequentemente, menos flexível. Já a abstração é o contrário, já é mais ampla, logo dá mais opções e, consequentemente, mais liberdade para operar dentro desse leque mais amplo de possibilidades.
 
+### Sem focar em detalhes
+
+Os detalhes de uma implementação não são relevantes para esses recursos (interfaces + classes abstratas), pois algo abstrato não leva detalhes específicos em consideração e sim a essência de uma operação. O motivo crucial para não conter detalhes em abstrações é evitar que o código fique preso a uma determinada implementação e, consequentemente, não consiga variá-la/trocá-la depois.
+
+Apesar da existência de classes abstratas e interfaces, uma abstração é algo que está em um nível muito mais conceitual que de código, portanto a aplicação dela não depende de construções de linguagem para ser aplicada. Abstrair é uma tarefa mental que não obriga o uso de um recurso da linguagem de programação para ser colocada em prática. A `PDO` é um exemplo disso.
+
 ### Exceção da regra
 
 A `PDO` é uma classe que é uma abstração mesmo sendo uma classe concreta e não um desses recursos (aka construção de linguagem) para criar uma abstração (interface e classe abstrata). Com isso, ela é uma exceção curiosa, [escrevi sobre isso nesse post](https://raphael-da-silva.github.io/injecao-pdo/).
