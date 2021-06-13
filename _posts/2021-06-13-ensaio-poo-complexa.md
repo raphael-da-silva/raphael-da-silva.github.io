@@ -15,9 +15,11 @@ Várias das minhas visões foram muito distorcidas e precisaram ser corrigidas a
 
 ***
 
-### 💀💀💀 Case Closed: é isso... 💀💀💀
+### 💀💀💀 Case Closed (com a caveira cega) 💀💀💀
 
 Gosto muito do grupo de Rap Cypress Hill (💀💀💀), existe uma música deles chamada "Case Closed", que traduzindo significa "Caso Encerrado". Referenciei o nome dessa música para encerrar esse artigo. 
+
+Já que esse post foca na cegueira de não enxergar as coisas, destaco a primeira caveira da capa do álbum abaixo.
 
 Caso encerrado (aka Case Closed)!!!!
 
