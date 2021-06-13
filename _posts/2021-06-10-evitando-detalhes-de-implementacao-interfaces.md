@@ -126,7 +126,7 @@ class VerificadorComBancoDeDados implements VerificadorDeUsuario
 
 Basicamente, o nome da tabela do banco de dados é um detalhe de implementação e, portanto, não faz parte da interface nesse contexto, pois somente o parâmetro referente ao e-mail é parte essencial do que operação se propõe a fazer.
 
-Já o parâmetro `$tabelaBancoDados` que foi retirado da interface revelava como essa operação seria feita, ou seja, ele revelava detalhes de como a implementação seria na realidazada prática, portanto não faz parte da operação que está sendo abstraída com a interface. Retirar o o parâmetro `$tabelaBancoDados` é exemplo de se despreender dos detalhes no processo de abstrair como foi mencionado no começo do livro.
+Já o parâmetro `$tabelaBancoDados` que foi retirado da interface revelava como essa operação seria feita, ou seja, ele revelava detalhes de como a implementação seria na realidazada prática, portanto não faz parte da operação que está sendo abstraída com a interface. Retirar o o parâmetro `$tabelaBancoDados` é exemplo de se despreender dos detalhes e ajuda a deixar a assinatura da operação mais abstrata.
 
 Evitar esses detalhes de implementação em interfaces também simplifica a interação (aka [troca de mensagens](https://raphael-da-silva.github.io/td-troca-de-mensagens/)) entre os objetos, já que os objetos que vão trabalhar com uma implementação da interface não terão que passar valores para parâmetros que são referentes aos detalhes de implementação, mantendo assim os detalhes ocultados e simplificando as coisas ao fazer a interação entre objetos se a ter a abstração.
 
