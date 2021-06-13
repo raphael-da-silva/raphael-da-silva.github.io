@@ -167,7 +167,7 @@ class LeitorDeArquivoJSON implements LeitorDeArquivo
 
 Expor como público o método ```checarFormatoDoArquivo``` não faria sentido, já que ele faz algo relacionado com o tipo de arquivo específico que a classe manipula, que nesse caso é ```JSON```. Logo, essa operação faz parte do funcionamento interno da classe em questão por lidar com um formato específico de arquivo.
 
-Já que o método foca em um detalhe interno de implementação, expor ele é expor algo que é pertinente somente a classe ```LeitorDeArquivoJSON```, logo, isso acaba quebrando o encapsulamento por conta dessa exposição indevida. 
+Já que o método foca em um detalhe interno de implementação, expor ele é expor algo que é pertinente somente a classe ```LeitorDeArquivoJSON```, logo, isso acaba quebrando o encapsulamento por conta dessa exposição indevida. O mesmo vale para o método `lerConteudoJson` que iria acabar expondo que a implementação trabalha com um formato JSON.
 
 Outra desvatagem é que expor o método `checarFormatoDoArquivo` acabaria fazendo com que os objetos de fora (fora da capsula) fossem responsáveis por requisitar a verificação do formato, o que adicionária uma responsabilidade extra nos objetos que estariam [trocando mensagem](https://raphael-da-silva.github.io/td-troca-de-mensagens/) com os objetos dessa classe `LeitorDeArquivoJSON`.
 
