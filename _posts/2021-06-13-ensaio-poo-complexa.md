@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ensaio sobre a cegueira: a orientação a objetos é mais complexa do que só usar objetos"
+title: "Ensaio sobre a cegueira: a POO é mais complexa do que só usar objetos"
 ---
 
 O paradigma da Orientação a Objetos exige um estudo aprofundado e seu aprendizado é complexo, pois ele envolve vários conceitos que vão além do código. Se alguém falar que a orientação a objetos é algo fácil não dá para acreditar muito. O que é fácil é criar classes, instanciar objetos e mais fácil ainda é colocar tudo em métodos estáticos de classes gigantes sem coesão, já a parte conceitual é complexa de aplicar corretamente.
