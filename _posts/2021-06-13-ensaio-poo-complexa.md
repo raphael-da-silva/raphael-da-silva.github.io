@@ -19,8 +19,8 @@ Várias das minhas visões foram muito distorcidas e precisaram ser corrigidas a
 
 Gosto muito do grupo de Rap Cypress Hill (💀💀💀), existe uma música deles chamada "Case Closed", que traduzindo significa "Caso Encerrado". Referenciei o nome dessa música para encerrar esse artigo. 
 
-Já que esse post foca na cegueira de não enxergar as coisas, destaco a primeira caveira da capa do álbum abaixo.
-
-Caso encerrado (aka Case Closed)!!!!
+**Já que esse post foca na cegueira de não enxergar as coisas, destaco a primeira caveira da capa do álbum abaixo.**
 
 ![cypress cover](https://i.scdn.co/image/ab67616d0000b2734e51c518e787896bc8cdb1a5)
+
+Caso encerrado (aka Case Closed)!!!!
