@@ -54,6 +54,14 @@ A herança utilizada na classe ```RegistroDeUsuario``` não faz sentido, pois o 
 
 Muitas vezes o uso errado da herança surge da ideia de reaproveitamento, já que geralmente o programador deseja utilizar o código da classe pai em outras classes de acordo com suas necessidades. Voltando para o exemplo em questão, o cadastro necessitar de acesso ao banco de dados é o que acaba levando a seguir por esse caminho de estender coisas nem nexo nenhum.
 
+## Antes da correção: o conceito de composição
+
+Composição, como o próprio nome remete, é o termo utilizado para definir a criação de objetos através de outros. Quando a funcionalidade de um objeto é feita sendo “composta” por outros objetos, significa que ele utiliza composição.
+
+O uso da composição é amplamente visto como uma alternativa para a herança, pois através dela os objetos são reaproveitados sem serem ligados por um tipo ou presos a uma hierarquia como acontece na herança, além disso, a composição é uma forma bem mais flexível de lidar com as dependências de um objeto (dependências essas que são injetadas para compor os objetos).
+
+### Corrigindo o exemplo da herança com composição (e injeção)
+
 Para que ```RegistroDeUsuario``` utilizar ```PDO``` sem usar herança, ela poderia ser passada como parâmetro (sendo injetada como dependência) em vez de herdar dela. Segue a classe depois dessa modificação:
 
 ```php
