@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ensaio: a concepção de um processo de abstração de operações"
+title: "Ensaio abstrato: a concepção de um processo de abstração de operações"
 ---
 
 Abstração sempre foi algo que instigou muito dentro da Orientação a Objetos, sempre busquei entender bem essa prática e processar isso na minha cabeça.
