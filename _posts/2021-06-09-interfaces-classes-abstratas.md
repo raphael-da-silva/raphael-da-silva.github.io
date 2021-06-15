@@ -19,6 +19,10 @@ O autor Joshua Block sintetiza isso de forma muito eficiente no seu livro _Effec
 
 A ferramenta que mais gosto são as interfaces, mas é válido lembrar das classes abstratas como mais uma ferramenta disponível na criação e representação de abstrações e a construção de um código mais flexível (variando essas implementações). Quanto mais ferramentas, mais opções dá para ter na manga. Uma coisa não exclui a outra.
 
+### Quando nem tudo precisar variar
+
+Uma interface é útil quando é necessário criar implementações completamente diferentes. Só que também existem os casos onde apenas determinadas métodos de uma classe devem ser livre para permitir diferentes implementações, neste tipo de situação utilizar uma classe abstrata já é o suficiente, pois ela permite que apenas os métodos abstratos possam receber diferentes implementações (e não necessariamente a classe inteira).
+
 ### Código abstrato vs. Implementação: o que cada um abrange
 
 Depender de um código mais abstrato, como é feito com o uso de interfaces ou classes abstratas, possibilita que uma implementação dessa dessa interface/classe abstrata seja trocada por outra implementação diferente, sendo essa a principal vantagem de trabalhar a relação dos objetos dependendo de abstrações.

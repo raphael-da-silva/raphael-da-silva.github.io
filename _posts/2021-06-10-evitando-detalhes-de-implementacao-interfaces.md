@@ -13,14 +13,19 @@ Uma interface pode ser vista como uma ferramenta para criar uma abstração, mas
 
 Ou seja, uma interface não garante que os seus métodos sejam abstratos o suficiente para possibilitar a troca fácil entre diferentes implementações. Quem garante que os detalhes de uma operação sejam abstraídos é o programador (que faz a tarefa mental de abstrair). 
 
-A essencia de uma interface é expor operações para objetos interagirem, isso é sintetizado na seguinte citação conhecida do Gang of Four:
+A essencia de uma interface é expor operações para objetos interagirem, mas não só isso, eles não devem revelar detalhes do funcionamento interno das interfaces, isso é sintetizado na seguinte citação conhecida do Gang of Four:
 
 <!-- The set of all signatures defined by an object's operation is called the interface to the object.
  -->
+ > O conjunto de todas as assinaturas definidas pelas operações de um objeto é chamado de interface do objeto. (GAMMA et al., 1994, p.13, tradução nossa)
 
-> O conjunto de todas as assinaturas definidas pelas operações de um objeto é chamado de interface do objeto. (GAMMA et al., 1994, p.13, tradução nossa)
+<!--
+An object's interface says nothing about its implementation—different objects are free to implement requests differently. That means two objects having completely different implementations can have identical interfaces.
+-->
 
-Com isso, uma interface não garante uma abstração, pois se detalhes de implementação forem colocados na assinatura dos métodos (nos seus nomes e parâmetros) definidos na interface ela não vai ser uma ferramenta útil para gerar operações abstraídas. 
+> A interface de um objeto não diz nada sobre sua implementação - diferentes objetos são livres para implementar solicitações de formas diferentes. Isso significa que dois objetos com implementações completamente diferentes podem ter interfaces idênticas. (GAMMA et al., 1994, p.25, tradução nossa)
+
+Não dizer nada sobre sua implementação é o requisito essencial, sem isso interface não garante uma abstração, pois se detalhes de implementação forem colocados na assinatura dos métodos (nos seus nomes e parâmetros) definidos na interface ela não vai ser uma ferramenta útil para gerar operações abstraídas. 
 
 Por isso é importente evitar detalhes de implementação nas assinaturas dos métodos de uma interface. Lembrando que a assinatura de um método é composta pelo nome do método e seus respectivos parâmetros e retornos (basicamente são todas as informações que um método expõe na sua declaração).
 
