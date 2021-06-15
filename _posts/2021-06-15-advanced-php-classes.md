@@ -3,7 +3,7 @@ layout: post
 title: "Recursos ninja: algumas classes nativas do PHP (usadas de forma estratégica)"
 ---
 
-Além das interfaces nativas apresentadas  anteriormente, o PHP também conta com algumas classes nativas. O propósito delas é fornecer algumas funcionalidades que ajudam a agilizar o desenvolvimento.
+Além das [interfaces nativas](https://raphael-da-silva.github.io/advanced-php-interfaces/), o PHP também conta com algumas classes nativas. O propósito delas é fornecer algumas funcionalidades que ajudam a agilizar o desenvolvimento.
 
 ## A classe ArrayObject
 
