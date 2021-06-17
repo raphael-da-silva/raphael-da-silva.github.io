@@ -17,7 +17,7 @@ Quando eu estudei o tema mais a fundo eu tinha muita coisa atormentado a minha c
 
 Tudo está muito bonito, mas não foi bem isso que ocorreu. Depois de analisar isso que em um primeiro momento enxerguei como esgotamento, vejo que foi diferente. Eu fui preciocista, me cobrei sem precisar e segui um caminho desastroso por causa de uma visão distorcida e apegada em assuntos específicos se fechando e ficando com vários deficits.
 
-O meu aprendizado foi bem mais pesado e combina mais com o horrorcore do grupo Gravediggaz.
+O meu aprendizado foi bem mais pesado e combina mais com o horrorcore do grupo Gravediggaz. O meu livro morreu e abrindo o caixão dele desencavei (6 Feet Deep) esses últimos posts do blog.
 
 [Gravediggaz](https://i.scdn.co/image/ab67616d0000b273b85cf390a0e41f14ddae24cc)
 
