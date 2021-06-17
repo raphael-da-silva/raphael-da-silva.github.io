@@ -17,7 +17,7 @@ Quando eu estudei o tema mais a fundo eu tinha muita coisa atormentado a minha c
 
 Tudo está muito bonito, mas não foi bem isso que ocorreu. Depois de analisar isso que em um primeiro momento enxerguei como esgotamento, vejo que foi diferente. Eu fui preciocista, me cobrei sem precisar e segui um caminho desastroso por causa de uma visão distorcida e apegada em assuntos específicos se fechando e ficando com vários deficits.
 
-O meu aprenziado foi bem mais maldito e combina mais com o horrorcore do grupo Gravediggaz.
+O meu aprendizado foi bem mais pesado e combina mais com o horrorcore do grupo Gravediggaz.
 
 [Gravediggaz](https://i.scdn.co/image/ab67616d0000b273b85cf390a0e41f14ddae24cc)
 
@@ -27,7 +27,7 @@ Eu não adquiri um apreço por programação por gostar demais de tecnologia, fo
 
 Ou seja, tudo tem muito mais a ver com linguagem e comunicação, pois o meu foco é na forma de expressar e estruturar as coisas no código e como fazer os objetos se relacionarem com essa estrutura formando uma composição de coisas que se juntam para um propósito. Foi a interface das coisas e como elas se davam no paradigma que fez eu criar apreço e ficar instigado.
 
-Outra coisa que sempre me chamou atenção foram objetos com bons nomes, pois é como se eles falassem (invocando ações) através de classes e seus métodos. Essa forma diferente de comunicar me instigou, o que explica que o fundo de tudo é comunicação diferente, assim como as capas de álbuns que coloco no final de posts para comunicar algo.
+Outra coisa que sempre me chamou atenção foram objetos com bons nomes, pois é como se eles falassem (invocando ações) através de classes e seus métodos. Essa forma diferente de comunicar me instigou, o que explica que o fundo de tudo é comunicação diferente, assim como as capas de álbuns que coloco nos posts para comunicar algo.
 
 ***
 
