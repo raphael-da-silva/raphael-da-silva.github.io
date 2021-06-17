@@ -32,7 +32,7 @@ class ColecaoNomes implements Countable
 
     private $nomes = [];
 
-    public function adicionarNome($nome)
+    public function adicionarNome($nome): void
     {
 
         $this->nomes[] = $nome;
@@ -44,7 +44,7 @@ class ColecaoNomes implements Countable
      * Método da interface Countable.
      *
      */
-    public function count()
+    public function count(): int
     {
 
         return count($this->nomes);
@@ -88,7 +88,7 @@ class InformacoesLocalizacao implements JsonSerializable
 
     }
 
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
 
         return [
@@ -171,7 +171,7 @@ class ColecaoNomes implements ArrayAccess
 
     private $nomes = [];
 
-    public function adicionarNome($nome)
+    public function adicionarNome($nome): void
     {
 
         $this->nomes[] = $nome;
@@ -183,7 +183,7 @@ class ColecaoNomes implements ArrayAccess
      * Os métodos abaixo são parte da interface Iterator.
      *
      */
-    public function offsetSet($indice, $valor)
+    public function offsetSet($indice, $valor): void
     {
 
         $this->nomes[$indice] = $valor;
@@ -197,14 +197,14 @@ class ColecaoNomes implements ArrayAccess
 
     }
 
-    public function offsetExists($indice)
+    public function offsetExists($indice): bool
     {
 
         return isset($this->nomes[$indice]);
 
     }
 
-    public function offsetUnset($indice)
+    public function offsetUnset($indice): void
     {
 
         unset($this->nomes[$indice]);
