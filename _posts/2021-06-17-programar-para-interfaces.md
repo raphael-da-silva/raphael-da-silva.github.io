@@ -109,7 +109,7 @@ Com isso, pode-se alterar as implementações e mudar o comportamento do cliente
 
 ## Relação entre os todos os sentidos abordados
 
-Uma `Interface->RecursoDasLinguagens` pode ser usada como uma ferramenta para criar uma Interface->Abstraçao e através da exposição de seus métodos públicos construir uma `Interface->API`. 
+Uma `Interface->RecursoDasLinguagens` pode ser usada como uma ferramenta para criar uma `Interface->Abstração` e através da exposição de seus métodos públicos construir uma `Interface->API`. 
 
 Nada disso é dado ou garantido, já que uma interface `Interface->RecursoDasLinguagens` pode não ser uma `Interface->Abstração` [se forem colocados detalhes demais nela (vazando detalhes de implementação em seus métodos).](https://raphael-da-silva.github.io/evitando-detalhes-de-implementacao-interfaces)
 
