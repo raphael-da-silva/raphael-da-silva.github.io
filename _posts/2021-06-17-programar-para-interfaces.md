@@ -3,7 +3,7 @@ layout: post
 title: "Ensaio: programar para interface, mas para qual sentido do termo interface?"
 ---
 
-Na minha cabeça eu sempre tive uma confusão entre o termo interface sendo usado em diferentes contextos, isso me levou a ter uma obsessão em distiguir os sentidos das coisas na minha cabeça.
+Na minha cabeça eu tive uma confusão entre o termo interface sendo usado em diferentes contextos, isso me levou a ter uma obsessão em distiguir os sentidos das coisas na minha cabeça.
 
 Em um lugar o termo se refere a API (métodos públicos), em outros lugares se refere a recursos/construções das linguagens, mas ainda parece existir um uso mais amplo do termo: que é se referir a abstrações.
 
