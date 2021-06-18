@@ -15,13 +15,15 @@ Traduzindo esse trecho diz o seguinte: "Tanta coisa em minha mente que eu simple
 
 Quando eu estudei o tema mais a fundo eu tinha muita coisa atormentado a minha cabeça e tentar enfiar (a força) os conceitos da orientação a objetos nela foi um peso a mais que me esgotou.
 
+### O peso por trás
+
 Tudo está muito bonito, mas não foi bem isso que ocorreu. Depois de analisar isso que em um primeiro momento enxerguei como esgotamento, vejo que foi diferente, esgotamento é o que pareceu na superficie. 
 
 Por trás disso, eu fui preciocista, me cobrei sem precisar e segui um caminho desastroso por causa de uma visão distorcida e apegada em assuntos específicos se fechando e ficando com vários deficits.
 
 O meu aprendizado foi bem mais pesado e combina mais com o horrorcore do grupo Gravediggaz. O meu livro morreu e abrindo o caixão dele desencavei (6 Feet Deep) esses últimos posts do blog.
 
-[Gravediggaz](https://i.scdn.co/image/ab67616d0000b273b85cf390a0e41f14ddae24cc)
+![Gravediggaz](https://i.scdn.co/image/ab67616d0000b273b85cf390a0e41f14ddae24cc)
 
 ## A minha relação diferente com programação
 
