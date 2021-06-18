@@ -29,11 +29,11 @@ The term API, which is short for applica-tion programming interface, is used in 
 
 > O termo API, que é uma abreviação para Application Programming Interface, é usado em preferência ao termo interface para evitar confusão com a construção de linguagem com esse nome.
 
-Essa citação é muito útil para evitar confusão e mostrar dois dos sentidos do termo interface, pois deixa explicíto que a palavra é usada com sentidos diferentes. Nos meus estudos tive contato conteúdos usando o termo com vários sentidos. Parecem existir uns 3 usos comuns para o termo interface, eles são:
+Essa citação é muito útil para evitar confusão e mostrar dois dos sentidos do termo interface, pois deixa explicíto que a palavra é usada com sentidos diferentes (API e construção de linguagem). Nos meus estudos tive contato conteúdos usando o termo com vários sentidos. Parecem existir uns 3 usos comuns para o termo interface, eles são:
 
--> Interface para se referir a uma API (Application Programming Interface).
--> Interface para se referir a abstrações (tipos abstratos usados).
--> Interface para se refetir a construção de linguagem (palavra reservada).
+* Interface para se referir a uma API (Application Programming Interface).
+* Interface para se referir a abstrações (tipos abstratos usados).
+* Interface para se refetir a construção de linguagem (palavra reservada).
 
 Sabendo disso, irei criar nomes próprios para apontar para esses sentidos e deixá-los expostos, expostos tal qual uma interface (como uma interface gráfica, que é um outro sentido dessa mesma palavra). Seguem os nomes que serão usados nesse artigo.
 
