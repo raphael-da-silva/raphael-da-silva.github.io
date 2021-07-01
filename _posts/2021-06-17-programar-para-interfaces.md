@@ -83,7 +83,7 @@ interface BuscaDePosts
 
 A construção de linguagem interface quando usada para abstrair expõe métodos sem focar em implementações, essa é uma característica fundamental de uma interface (`Interface->Abstração`), pois ao não focar em implementação ela é útil para abstrair, o que resulta em baixo acoplamente e, consequentemente, mais flexibilidade ao possibilitar a troca de implementações.
 
-A construção de linguagem interface serve como ferramenta para criar implementações completamente diferentes de um conjunto de operações. No exemplo são objetos que buscam produtos de alguma fonte, onde trocar completamente de fonte dos dados é algo bem vantajoso (por exemplo, trocar a fonte de dados de um banco de dados por um arquivo). 
+A construção de linguagem interface serve como ferramenta para criar implementações completamente diferentes de um conjunto de operações. No exemplo são objetos que buscam posts de alguma fonte, onde trocar completamente de fonte dos dados é algo bem vantajoso (por exemplo, trocar a fonte de dados de um banco de dados por um arquivo). 
 
 O que a construção de linguagem interface faz é mais uma formalização da exposição de todas as assinaturas das operações (leia-se métodos) dentro das linguagens de programação agindo como um contrato (que é uma ideia bem difundida sobre interfaces).
 
