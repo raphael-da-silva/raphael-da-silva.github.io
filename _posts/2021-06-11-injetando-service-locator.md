@@ -110,7 +110,7 @@ Esse foi um uso que acabei enxergando enquanto fazia um Dispatcher de uma arquit
 
 ### Conclusão
 
-Enfim, existem casos válidos para usar esses conceitos ao mesmo tempo que eles são bem problemáticos, portanto chamar eles de antipattern é muito mais um reflexo de um mal uso de um padrão do que o padrão ser um problema por si só. Existem discussões na intert com blogs chamando de anti-patter e outros dizendo que não é, acho mais válido ponderar as características do que afirmar o que é certo ou errado.
+Enfim, existem casos válidos para usar esse conceito ao mesmo tempo que seu uso pode ser bem problemático, portanto chamar eles de antipattern é muito mais um reflexo de um mal uso de um padrão do que o padrão ser um problema por si só. Existem discussões na internet com blogs chamando de anti-patter e outros dizendo que não é, acho mais válido ponderar as características do que afirmar o que é certo ou errado.
 
 ### Referências 
 
