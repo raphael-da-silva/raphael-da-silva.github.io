@@ -135,7 +135,7 @@ class LeitorDeArquivoJSON implements LeitorDeArquivo
 
     }
 
-    private function checarFormatoDoArquivo(): void
+    private function checarExtensaoJsonDeArquivo(): void
     {
 
         if(pathinfo($this->arquivo, PATHINFO_EXTENSION) !== 'json'){
@@ -157,7 +157,7 @@ class LeitorDeArquivoJSON implements LeitorDeArquivo
     public function ler(): array
     {
 
-        $this->checarFormatoDoArquivo();
+        $this->checarExtensaoJsonDeArquivo();
         return $this->lerConteudoJson();
 
     }
@@ -165,13 +165,15 @@ class LeitorDeArquivoJSON implements LeitorDeArquivo
 }
 ```
 
-Expor como público o método ```checarFormatoDoArquivo``` não faria sentido, já que ele faz algo relacionado com o tipo de arquivo específico que a classe manipula, que nesse caso é ```JSON```. Logo, essa operação faz parte do funcionamento interno da classe em questão por lidar com um formato específico de arquivo.
+Expor como público o método ```checarExtensaoJsonDeArquivo``` não faria sentido, já que ele faz algo relacionado com o tipo de arquivo específico que a classe manipula, que nesse caso é ```JSON```. Logo, essa operação faz parte do funcionamento interno da classe em questão por lidar com um formato específico de arquivo.
 
 Já que o método foca em um detalhe interno de implementação, expor ele é expor algo que é pertinente somente a classe ```LeitorDeArquivoJSON```, logo, isso acaba quebrando o encapsulamento por conta dessa exposição indevida. O mesmo vale para o método `lerConteudoJson` que iria acabar expondo que a implementação trabalha com um formato JSON.
 
-Outra desvatagem é que expor o método `checarFormatoDoArquivo` acabaria fazendo com que os objetos de fora (fora da capsula) fossem responsáveis por requisitar a verificação do formato, o que adicionária uma responsabilidade extra nos objetos que estariam [trocando mensagem](https://raphael-da-silva.github.io/td-troca-de-mensagens/) com os objetos dessa classe `LeitorDeArquivoJSON`.
+Outra desvatagem é que expor como publico o método `checarExtensaoJsonDeArquivo` acabaria fazendo com que os objetos de fora (fora da capsula) fossem responsáveis por requisitar a verificação do formato, o que adicionária uma responsabilidade extra nos objetos que estariam [trocando mensagem](https://raphael-da-silva.github.io/td-troca-de-mensagens/) com os objetos dessa classe `LeitorDeArquivoJSON`.
 
-A classe em questão tem que expor como público só o método da interface que ela implementa (que é o método `ler`), já que ali nada de específico é revelado e, portanto, nenhum acesso a partes internas específicas do funcionamento da classe é dado para fora do escopo dela.
+### Expondo só a abstração
+
+A classe em questão tem que expor como público só o método da interface que ela implementa (que é o método `ler`), já que ali nada de específico (leia-se os detalhes de implementação) é revelado e, portanto, nenhum acesso a partes internas específicas do funcionamento da classe é dado para fora do escopo dela, o que mantém tudo encapsulado.
 
 Um último adendo é que, além de respeitar o encapsulamento, o uso de métodos privados também possibilita a separação das responsabilidades de um objeto em métodos pequenos (granulares) que juntos compõem uma tarefa mais complexa. [Essa separação em partes menores foi abordada nessa postagem](https://raphael-da-silva.github.io/metodos-pequenos-granulares/).
 
