@@ -15,7 +15,7 @@ description: $this->escrever('post', 'blog');
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: raphael-dasilva@outlook.com
+  email: 
   facebook:
   flickr:
   github: raphael-da-silva
