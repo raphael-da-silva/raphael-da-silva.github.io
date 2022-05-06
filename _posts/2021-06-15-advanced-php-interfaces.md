@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Recursos ninja: as interfaces nativas do PHP"
+title: "Recursos do PHP: as interfaces nativas"
 ---
 
 O PHP conta com algumas interfaces padrões para serem utilizadas. Esse tipo de código está presente por padrão no PHP, ou seja, eles já vem como um recurso nativo da linguagem. Elas são bastante úteis para dar comportamentos diferentes para objetos, um exemplo é a interface ```ArrayAccess``` que tem como objetivo fazer um objeto poder ser manipulado como um array.
