@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Recursos Ninja: Interfaces nativas do PHP, parte 2"
+title: "Recursos do PHP: as interfaces nativas, parte 2"
 ---
 
 Continuação do post anterior sobre interfaces nativas do PHP.
