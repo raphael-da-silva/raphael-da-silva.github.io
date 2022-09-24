@@ -3,15 +3,15 @@ layout: post
 title: "Ensaio: programar para interface, mas para qual sentido do termo interface?"
 ---
 
-Na minha cabeça eu tive uma confusão entre o termo interface sendo usado em diferentes contextos, isso me levou a ter uma obsessão em distiguir os sentidos das coisas na minha cabeça.
+Na minha cabeça eu tive uma confusão entre o termo interface sendo usado em diferentes contextos, isso me levou a ter uma necessidade em distiguir os sentidos das coisas na minha cabeça.
 
-Em um lugar o termo se refere a API (métodos públicos), em outros lugares se refere a recursos/construções das linguagens, mas ainda parece existir um uso mais amplo do termo: que é se referir a abstrações.
+Em um lugar o termo se refere a API (métodos públicos), em outros lugares se refere a construções das linguagens (palavra reservada interface), mas ainda parece existir um uso mais amplo do termo: que é se referir a abstrações no paradigma da orientação a objetos.
 
 ## O que é uma interface?
 
-Uma interface contém as operações que serão expostas de um objeto, essas operações são utilizadas por outros objetos fazendo a troca de mensagem entre eles e, com isso, formando o funcionamento de um software construído com Orientação a Objetos.
+Uma interface contém as operações que serão expostas de um objeto, essas operações são utilizadas por outros objetos fazendo a troca de mensagem entre eles e, com isso, fazendo a comunicação em um software construído com Orientação a Objetos.
 
-Resumidamente, uma interface é o que um objeto expõe para se comunicar e fazer com que objetos se relacionem.
+Em outras palavras, uma interface é o que um objeto expõe para se comunicar e fazer com que objetos se relacionem.
 
 <!-- The set of all signatures defined by an object's operation is called the interface to the object.
  -->
