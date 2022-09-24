@@ -13,4 +13,4 @@ Criar uma implementação para uma abstração é dar sua própria interpretaç�
 
 Gosto muito do grupo de Rap Wu-Tang Clan, por isso vou encerrar esse artigo com o espírito ninja do grupo.
 
-![wu cover](https://i.scdn.co/image/ab67616d0000b273340e53225fb2b3886a57ba91)ab67616d0000b2734e51c518e787896bc8cdb1a5)
+![wu cover](https://i.scdn.co/image/ab67616d0000b273340e53225fb2b3886a57ba91)
