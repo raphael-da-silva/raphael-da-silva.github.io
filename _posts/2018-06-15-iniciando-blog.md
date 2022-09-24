@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Iniciando mais um blog de programação
+title: Hello World - Iniciando um blog de $programação
 date: 2018-06-15 21:00
 ---
 
