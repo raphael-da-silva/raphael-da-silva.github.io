@@ -229,8 +229,8 @@ nav {
   }
 
   a {
-    margin-left: 20px;
-    color: $darkGray;
+    margin-left: 15px;
+    color: $yellow;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -288,6 +288,9 @@ nav {
   background-color: $custom;
   padding: 10px;
   margin-top: 10px;
+}
+.presentation-box h4{
+  margin-top: 0px;
 }
 
 /* Update */
