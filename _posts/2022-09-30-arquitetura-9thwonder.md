@@ -7,7 +7,7 @@ Na internet tem obras de desenvolvedores da comunidade que escreveram artigos e 
 
 Todo esse conhecimento compartilhado por terceiros (como o código da pasta vendor que é baixada pelo Composer) me permitiu construir uma base de conhecimento para trabalhar com objetos e ter interesse suficiente para querer escrever sobre o tema.
 
-Na atividade musical exista a prática de samplear (principalmente no Rap), essa prática consiste em extrair partes/pedaços de músicas antigas para compor um instrumental de uma música nova.
+Na atividade musical existe a prática de samplear (principalmente no Rap), essa prática consiste em extrair partes/pedaços de músicas antigas já existentes para compor um instrumental de uma música nova.
 
 Todo o conhecimento sobre o paradigma que consumi foram as coisas "sampleadas" por mim, é como se eu estivesse sampleando o conhecimento difundido na área para compor uma nova obra, que aqui não é uma nova batida, mas sim este blog e posts como esse.
 
