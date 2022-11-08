@@ -20,3 +20,10 @@ Traduzindo fica o seguinte:
 > Em suma ... toda a nossa cultura é um sample, nosso governo, nossos edifícios, feriados, nosso modo de vida... passamos o dia dizendo gírias e usando termos que NÃO foram criados por nenhum de nós, mas que dizemos como se fosse nosso....
 
 Toda essa ideia de que tudo se constrói com base em alguma coisa usando a arte de samplear foi algo que fez sentido para mim, pois se conectou com o meu entusiasmo com a construção de batidas de rap, construção essa que envolve a programação de timbres dentro de um padrão, são sons programados para operar e se repetir dentro de um BPM, é um outro tipo de programação que eu fazia antes de entrar na programação de objetos.
+
+![9th Wonder](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/9thWonderAtPaidDues-2008-resized.jpg/330px-9thWonderAtPaidDues-2008-resized.jpg)
+
+### Links
+
+https://en.wikipedia.org/wiki/9th_Wonder
+
