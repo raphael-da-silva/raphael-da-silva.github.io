@@ -22,7 +22,7 @@ interface UserFinder
 {
    	public function getById(int $id): User;
 }
-``
+```
 
 ```php
 <?php
@@ -57,9 +57,9 @@ class UserDetailsController extends Controller
 }
 ```
 
-Ou seja, a interface ```UserFinder``` permite criar qualquer classe para buscar um usuario. A implementacao padrao foi usando os componentes (as classes) de acesso a banco de dados o Laravel, pois essa implementacao em questão busca usuarios no banco de dados. Mas poderia ser em qualquer outra fonte de dados (um arquivo XML, um arquivo JSON).
+Ou seja, a interface ```UserFinder``` permite criar qualquer classe para buscar um usuário. A implementação padrao foi usando os componentes (as classes) de acesso a banco de dados o Laravel, pois essa implementação em questão busca usuários no banco de dados. Mas poderia ser em qualquer outra fonte de dados (um arquivo XML, um arquivo JSON).
 
-E o acesso ao banco de dados do Laravel é um monte de método estático (agrupado num namespace chamado DB, que significa DataBase) do qual nao gosto muito, mas a beleza da coisa é que isso nao importa pq todo esse código esta abstraido com a interface, apenas a implentacao (```LaravelDBUserFinder```) usa esses métodos estáticos que sao pertinentes a como o Laravel faz as coisas no seu ecossistema.
+E o acesso ao banco de dados do Laravel é um monte de método estático (agrupado num namespace chamado DB, que significa DataBase) do qual nao gosto muito, mas a beleza da coisa é que isso nao importa porque todo esse código esta abstraido com a interface, apenas a implementação (```LaravelDBUserFinder```) usa esses métodos estáticos que são pertinentes a como o Laravel faz as coisas no seu ecossistema.
 
 ```php
 <?php
@@ -91,7 +91,7 @@ class LaravelDBUserFinder implements UserFinder
 }
 ```
 
-Eu nao sou fluente em Laravel, nem domino esse framework, o máximo que fiz com ele foi testes para vagas de emprego (porque ele é muito usado pelo mercado, virou uma espécie de convencao), mas tento observar a arquitetura das coisas e busoc desacoplar o código no paradigma da orientacao a objetos. Entao gosto de ver as interfaces aplicadas e como isso traz legibilidade e desacoplamento para o código.
+Eu nao sou fluente em Laravel, nem domino esse framework, o máximo que fiz com ele foi testes para vagas de emprego (porque ele é muito usado pelo mercado, virou uma espécie de convenção), mas tento observar a arquitetura das coisas e busco desacoplar o código no paradigma da orientacao a objetos. Entao gosto de ver as interfaces aplicadas e como isso traz legibilidade e desacoplamento para o código.
 
 Link para o repositório: https://github.com/raphael-da-silva/testando-o-laravel
 
