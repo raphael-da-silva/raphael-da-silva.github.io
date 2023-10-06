@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: $gray;
+	background: $darkGray;
   font: 18px/1.4 $helvetica;
   color: $black;
 }
@@ -197,7 +197,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $black;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -207,7 +207,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $black;
   font-size: 16px;
 
   @include mobile {
@@ -280,8 +280,9 @@ nav {
 /* Customizado */
 .custom-item{
   background-color: $black;
-  color: $lightGray !important;
-  padding: 2px;
+  color: $gray !important;
+  font-family: $helveticaNeue;
+  padding: 4px;
   margin-bottom: 1px !important;
 }
 .presentation-box{
