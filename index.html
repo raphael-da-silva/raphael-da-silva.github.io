@@ -6,9 +6,11 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 
-      <h3 style="margin: 0; padding: 0;">
+      <h4 style="margin: 0; padding: 0;">
       	<a href="{{ site.baseurl }}{{ post.url }}" class="custom-item">${{ post.title }}</a>
-      </h3>
+        <br>
+        Publicado em {{ page.date | date: "%e/%m/%Y" }}
+      </h4>
 
      <!--  <div class="entry">
         {{ post.excerpt }}
