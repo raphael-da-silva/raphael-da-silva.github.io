@@ -27,3 +27,8 @@ Toda essa ideia de que tudo se constrói com base em alguma coisa usando a arte 
 
 https://en.wikipedia.org/wiki/9th_Wonder
 
+### Encerramento ninja!
+
+Gosto muito do grupo de Rap Wu-Tang Clan, por isso vou encerrar esse artigo com o espírito ninja do grupo.
+
+![wu cover](https://i.scdn.co/image/ab67616d0000b273340e53225fb2b3886a57ba91)

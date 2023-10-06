@@ -115,13 +115,3 @@ Enfim, existem casos válidos para usar esse conceito ao mesmo tempo que seu uso
 ### Referências 
 
 * https://www.lambda3.com.br/2009/04/injecao-de-dependencia-ou-service-locator/
-
-***
-
-### 💀💀💀 Case Closed: é isso... 💀💀💀
-
-Gosto muito do grupo de Rap Cypress Hill (💀💀💀), existe uma música deles chamada "Case Closed", que traduzindo significa "Caso Encerrado". Referenciei o nome dessa música para encerrar esse artigo. 
-
-Caso encerrado (aka Case Closed)!!!!
-
-![cypress cover](https://i.scdn.co/image/ab67616d0000b2734e51c518e787896bc8cdb1a5)

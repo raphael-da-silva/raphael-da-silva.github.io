@@ -226,11 +226,3 @@ if(isset($nomes[0])){ // Executa o método offsetExists.
     unset($nomes[0]); // Executa o método offsetUnset.
 }
 ```
-
-*** 
-
-### Encerramento ninja!
-
-Gosto muito do grupo de Rap Wu-Tang Clan, por isso vou encerrar esse artigo com o espírito ninja do grupo.
-
-![wu cover](https://i.scdn.co/image/ab67616d0000b273340e53225fb2b3886a57ba91)

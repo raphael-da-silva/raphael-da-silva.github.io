@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: #191717;
+	background: $gray;
   font: 18px/1.4 $helvetica;
-  color: $darkerGray;
+  color: $black;
 }
 
 .container {
@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $custom;
+  color: $black;
   font-weight: bold;
 
   line-height: 1.7;
@@ -65,8 +65,8 @@ h4 {
 }
 
 hr{
-  background-color: $custom;
-  color: $custom;
+  background-color: $black;
+  color: $black;
 }
 
 p {
@@ -161,7 +161,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $custom;
+  border-bottom: 1px solid $black;
 
   @include mobile {
     text-align: center;
@@ -230,7 +230,7 @@ nav {
 
   a {
     margin-left: 15px;
-    color: $yellow;
+    color: $black;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -279,14 +279,14 @@ nav {
 
 /* Customizado */
 .custom-item{
-  background-color: $custom;
-  color: $black !important;
+  background-color: $black;
+  color: $lightGray !important;
   padding: 2px;
   margin-bottom: 1px !important;
 }
 .presentation-box{
-  background-color: $custom;
-  color: $black;
+  background-color: $black;
+  color: $lightGray;
   padding: 10px;
   margin-top: 10px;
 }
@@ -307,8 +307,8 @@ margin: 15px auto;
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid $gray;
+  border-bottom: 1px solid $gray;
   background-color: $black;
 }
 

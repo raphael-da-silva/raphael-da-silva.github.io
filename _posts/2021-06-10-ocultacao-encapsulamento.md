@@ -183,12 +183,3 @@ Um último adendo é que, além de respeitar o encapsulamento, o uso de métodos
 * [Significado da palavra encapsulamento no site dicio.com.br](https://www.dicio.com.br/encapsulamento/)
 * https://en.wikipedia.org/wiki/Information_hiding
 
-***
-
-### 💀💀💀 Case Closed (e escope closed...) 💀💀💀
-
-Gosto muito do grupo de Rap Cypress Hill (💀💀💀), existe uma música deles chamada "Case Closed", que traduzindo significa "Caso Encerrado". Referenciei o nome dessa música para encerrar esse artigo. 
-
-Caso encerrado (aka Case Closed)!!!! **No caso desse post sobre encapsulamento não é só o caso que foi fechado, mas o escopo também... Fechado dentro de uma capsula com formato de caveira.** 💀💀💀
-
-![cypress cover](https://i.scdn.co/image/ab67616d0000b2734e51c518e787896bc8cdb1a5)

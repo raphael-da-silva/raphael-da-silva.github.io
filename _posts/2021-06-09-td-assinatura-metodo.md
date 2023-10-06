@@ -31,12 +31,4 @@ A interface em questão traz o método `ler`, decompondo os elementos que fazem 
 * Parâmetro de entrada que é um arquivo representado pela variável `$arquivo`.
 * Tipo esperado como retorno da leitura que é um `array`.
 
-***
-
-### 💀💀💀 Case Closed: é isso... 💀💀💀
-
-Gosto muito do grupo de Rap Cypress Hill (💀💀💀), existe uma música deles chamada "Case Closed", que traduzindo significa "Caso Encerrado". Referenciei o nome dessa música para encerrar esse artigo. 
-
-Caso encerrado (aka Case Closed)!!!!
-
-![cypress cover](https://i.scdn.co/image/ab67616d0000b2734e51c518e787896bc8cdb1a5)
+Este post é mais a anatomia de objetos e sua comunicação.

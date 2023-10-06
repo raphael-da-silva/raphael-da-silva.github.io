@@ -120,11 +120,3 @@ Nada disso é dado ou garantido, já que uma interface `Interface->RecursoDasLin
 * BLOCH, Joshua. Effective Java: Third Edition.
 
 * A primeira vez que vi o intermo interface sendo tratado como abstração na ideia de programar para interfaces foi em um [hangout sobre refatoração onde isso foi apontado pelo programador João Batista Neto no tempo de 1 hora 7 minutos e 44 segundos](https://www.youtube.com/watch?v=lhCePvd4le4&t=4064s).
-
-*** 
-
-### Encerramento ninja!
-
-Gosto muito do grupo de Rap Wu-Tang Clan, por isso vou encerrar esse artigo com o espírito ninja do grupo.
-
-![wu cover](https://i.scdn.co/image/ab67616d0000b273340e53225fb2b3886a57ba91)

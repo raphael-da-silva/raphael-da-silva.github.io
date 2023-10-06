@@ -20,13 +20,3 @@ Nesse fluxo de relacionamentos dos objetos a citação termina mencionando o ter
 ### Referências
 
 * GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; Vlissides, John. Design Patterns: Elements of Reusable Object-Oriented Software. Edição 1.
-
-***
-
-### 💀💀💀 Case Closed: é isso... 💀💀💀
-
-Gosto muito do grupo de Rap Cypress Hill (💀💀💀), existe uma música deles chamada "Case Closed", que traduzindo significa "Caso Encerrado". Referenciei o nome dessa música para encerrar esse artigo. 
-
-Caso encerrado (aka Case Closed)!!!!
-
-![cypress cover](https://i.scdn.co/image/ab67616d0000b2734e51c518e787896bc8cdb1a5)

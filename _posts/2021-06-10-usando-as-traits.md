@@ -145,13 +145,3 @@ class MensagemOla
 ```
 
 Traits são um bom recurso para evitar a repetição de código, o exemplo mostrado anteriormente serve para ilustrar isso. Com esse recurso o PHP traz muito mais possibilidades para lidar com código repetido (leia-se resolvê-lo). Ter as traits como carta na manga ajuda muito.
-
-***
-
-### 💀💀💀 Case Closed: é isso... 💀💀💀
-
-Gosto muito do grupo de Rap Cypress Hill (💀💀💀), existe uma música deles chamada "Case Closed", que traduzindo significa "Caso Encerrado". Referenciei o nome dessa música para encerrar esse artigo. 
-
-Caso encerrado (aka Case Closed)!!!!
-
-![cypress cover](https://i.scdn.co/image/ab67616d0000b2734e51c518e787896bc8cdb1a5)

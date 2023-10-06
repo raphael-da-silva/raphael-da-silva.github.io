@@ -144,13 +144,3 @@ class InformacoesDeLivros implements IteratorAggregate
 ```
 
 Basicamente, a ideia do ```IteratorAggregate``` é fornecer um objeto que têm um iterator e não que é um iterator, por isso o uso da palavra aggregate para dar a ideia de ter (ou **agregar**) algo. No exemplo em questão, a classe `InformacoesDeLivros` agraga o interagir `ColecaoDeNomes` que foi usado como exemplo anterior.
-
-***
-
-### 💀💀💀 Case Closed: é isso... 💀💀💀
-
-Gosto muito do grupo de Rap Cypress Hill (💀💀💀), existe uma música deles chamada "Case Closed", que traduzindo significa "Caso Encerrado". Referenciei o nome dessa música para encerrar esse artigo. 
-
-Caso encerrado (aka Case Closed)!!!!
-
-![cypress cover](https://i.scdn.co/image/ab67616d0000b2734e51c518e787896bc8cdb1a5)

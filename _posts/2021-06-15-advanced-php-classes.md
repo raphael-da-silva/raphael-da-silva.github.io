@@ -81,11 +81,3 @@ $objetoUsuario = (object) $usuario;
 ```
 
 Esse tipo de conversão pode ser vantajosa em contextos onde é necessário passar um tipo que é um objeto como parâmetro reaproveitando os dados presentes em um array.
-
-*** 
-
-### Encerramento ninja!
-
-Gosto muito do grupo de Rap Wu-Tang Clan, por isso vou encerrar esse artigo com o espírito ninja do grupo.
-
-![wu cover](https://i.scdn.co/image/ab67616d0000b273340e53225fb2b3886a57ba91)
