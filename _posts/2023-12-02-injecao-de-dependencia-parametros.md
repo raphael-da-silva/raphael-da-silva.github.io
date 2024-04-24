@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Parâmetros e seus tipos são as dependências a serem injetadas em um objeto
+title: Parâmetros e seus tipos podem ser as dependências injetadas em um objeto
 date: 2023-12-02
 ---
 
