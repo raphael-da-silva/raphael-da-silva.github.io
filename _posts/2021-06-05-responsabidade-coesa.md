@@ -19,9 +19,9 @@ A prática de decomposição também facilita a manutenção e o reaproveitament
 
 ### Decompondo para ter uma responsabilidade bem definida
 
-Um envio de e-mail com log é uma tarefa que pode acontecer em um projeto, portanto essas operações serão utilizadas para mostrar um exemplo prático de como decompor para separar as responsabilidades que o código deve ter.
+Um envio de e-mail com log é uma tarefa que pode acontecer em um projeto. No cenário onde um objeto envia um e-mail e registra um log dessa operação, pode ser necessário reutilizar apenas uma dessas duas operações em outro ponto. Caso seja necessário apenas o envio de e-mail ou o registro de log não será possível utilizar essas funcionalidades separadamente se elas estiverem misturadas, pois o objeto possui mais de uma responsabilidade.
 
-No cenário onde um objeto envia um e-mail e registra um log dessa operação, pode ser necessário reutilizar apenas uma dessas duas operações em outro ponto. Caso seja necessário apenas o envio de e-mail ou o registro de log não será possível utilizar essas funcionalidades separadamente se elas estiverem misturadas, pois o objeto possui mais de uma responsabilidade. A classe ```RegistroDeUsuario``` a seguir exemplifica esse tipo de mistura responsabilidades.
+Outro tipo de operação que pode ser acompanhada com log é registrar um usuário no banco de dados, portanto essas operações serão utilizadas para mostrar um exemplo prático de como decompor para separar as responsabilidades que o código deve ter. A classe ```RegistroDeUsuario``` a seguir exemplifica esse tipo de mistura responsabilidades.
 
 ```php
 <?php
